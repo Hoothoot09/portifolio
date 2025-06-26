@@ -11,21 +11,21 @@ export function DropdownMenuHeader() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="font-bold text-sm border-2 border-[#990000] p-1 rounded-md hover:bg-[#E0E0E0]">Open</button>
+        <button className="font-bold text-sm border-2 border-[#CC0000] p-1 rounded-md">Open</button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-auto bg-[#990000]">
+      <DropdownMenuContent className="w-auto bg-[#CC0000]">
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            <Link href={"#about"}>About</Link>
+            <Link href={"#about"} className="w-full text-white p-1">About</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href={"#projects"}>Projects</Link>      
+            <Link href={"#projects"} className="w-full text-white p-1">Projects</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href={"#experience"}>Experience</Link>
+            <Link href={"#experience"} className="w-full text-white p-1">Experience</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href={"#contacts"}>Contacts</Link>
+            <Link href={"#contacts"} className="w-full text-white p-1">Contacts</Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>

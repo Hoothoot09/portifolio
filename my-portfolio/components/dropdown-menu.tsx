@@ -1,3 +1,4 @@
+import Link from "next/link"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,21 +11,21 @@ export function DropdownMenuHeader() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button>Open</button>
+        <button className="font-bold text-sm border-2 border-[#990000] p-1 rounded-md hover:bg-[#E0E0E0]">Open</button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-6">
+      <DropdownMenuContent className="w-auto bg-[#990000]">
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            About
+            <Link href={"#about"}>About</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            Projects
+            <Link href={"#projects"}>Projects</Link>      
           </DropdownMenuItem>
           <DropdownMenuItem>
-            Experience
+            <Link href={"#experience"}>Experience</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            Contacts
+            <Link href={"#contacts"}>Contacts</Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>

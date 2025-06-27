@@ -15,7 +15,7 @@ export function DropdownMenuHeader() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-         <Image src={'/menu.svg'} width={24} height={24} alt={"Menu"} />
+         <Image src={'/menu.svg'} width={24} height={24} alt={"Menu"}/>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-auto bg-[#CC0000]">
         <DropdownMenuGroup>

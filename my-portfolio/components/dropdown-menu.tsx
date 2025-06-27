@@ -1,4 +1,7 @@
+'use client'
+
 import Link from "next/link"
+import React, { useEffect, useRef } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,6 +11,8 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 export function DropdownMenuHeader() {
+  const [open, setOpen] = React.useState(true);
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -15,18 +20,26 @@ export function DropdownMenuHeader() {
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-auto bg-[#CC0000]">
         <DropdownMenuGroup>
-          <DropdownMenuItem>
-            <Link href={"#about"} className="w-full text-white p-1">About</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href={"#projects"} className="w-full text-white p-1">Projects</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href={"#experience"} className="w-full text-white p-1">Experience</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href={"#contacts"} className="w-full text-white p-1">Contacts</Link>
-          </DropdownMenuItem>
+          <Link href={"#about"} className="w-full text-white">
+            <DropdownMenuItem>
+             About
+            </DropdownMenuItem>
+          </Link>
+          <Link href={"#projects"} className="w-full text-white">
+            <DropdownMenuItem>
+             Projects
+            </DropdownMenuItem>
+          </Link>
+          <Link href={"#experience"} className="w-full text-white">
+            <DropdownMenuItem>
+             Experience
+            </DropdownMenuItem>
+          </Link>
+          <Link href={"#contacts"} className="w-full text-white">
+            <DropdownMenuItem>
+             Contacts
+            </DropdownMenuItem>
+          </Link>
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>

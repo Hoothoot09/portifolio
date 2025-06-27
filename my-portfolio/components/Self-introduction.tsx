@@ -8,8 +8,8 @@ export default function SelfIntroduction() {
        <span className="text-[#2D2D2D]">Salvador, BA</span>
       </div>
       <div>
-        <h1 className="text-[#2D2D2D] font-bold text-4xl">Desenvolvedor Front-End & <span className="text-[#990000]">Designer UI/UX</span></h1>
-        <p>Sou um desenvolvedor Front-End e Designer UI/UX, estou à 1 ano meio programando, criando projetos pessoais para aprimorar minhas habilidades como programador. Procuro oportunidades para entrar no mercado de trabalho e me desenvolver profissionalmente.</p>
+        <h1 className="text-[#2D2D2D] font-bold text-4xl pb-7">Desenvolvedor Front-End & <span className="text-[#990000]">Designer UI/UX</span></h1>
+        <p className="text-[#2D2D2D] opacity-80 text-lg font-[Arial]">Sou um desenvolvedor Front-End e Designer UI/UX, estou à 1 ano meio programando, criando projetos pessoais para aprimorar minhas habilidades como programador. Procuro oportunidades para entrar no mercado de trabalho e me desenvolver profissionalmente.</p>
       </div>
     </div>
   )

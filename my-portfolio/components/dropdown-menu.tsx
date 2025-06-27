@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import React, { useEffect, useRef } from "react";
+import Image from "next/image"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,12 +11,11 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 export function DropdownMenuHeader() {
-  const [open, setOpen] = React.useState(true);
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="font-bold text-sm border-2 border-[#CC0000] p-1 rounded-md">Open</button>
+         <Image src={'/menu.svg'} width={24} height={24} alt={"Menu"} />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-auto bg-[#CC0000]">
         <DropdownMenuGroup>

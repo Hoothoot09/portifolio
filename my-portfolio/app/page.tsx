@@ -1,3 +1,4 @@
+import AboutMe from "@/components/About-me";
 import Header from "@/components/Header";
 import SelfIntroduction from "@/components/Self-introduction";
 
@@ -7,6 +8,9 @@ export default function Home() {
      <Header />
      <div className="pt-26 px-4 bg-gradient-to-b from-white to-[#e0e0e0]">
       <SelfIntroduction />
+     </div>
+     <div>
+       <AboutMe />
      </div>
     </div>
     

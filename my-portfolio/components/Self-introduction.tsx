@@ -5,26 +5,87 @@ export default function SelfIntroduction() {
   return (
     <div>
       <div className="flex gap-1 items-center">
-       <Image src="/localization.svg" alt="localization icon" width={12} height={12}/>
-       <span className="text-[#2D2D2D]">Salvador, BA</span>
+        <Image
+          src="/localization.svg"
+          alt="localization icon"
+          width={12}
+          height={12}
+        />
+        <span className="text-[#2D2D2D]">Salvador, BA</span>
       </div>
       <div>
-        <h1 className="text-[#2D2D2D] font-bold text-4xl pb-7">Desenvolvedor Front-End & <span className="text-[#990000]">Designer UI/UX</span></h1>
-        <p className="text-[#2D2D2D] opacity-80 text-lg font-[Arial] pb-6">Sou um desenvolvedor Front-End e Designer UI/UX, estou à 1 ano meio programando, criando projetos pessoais para aprimorar minhas habilidades como programador. Procuro oportunidades para entrar no mercado de trabalho e me desenvolver profissionalmente.</p>
-        <Link href="#projects"><button className="flex w-full gap-2 justify-center items-center bg-[#CC0000] text-white p-2 rounded-md">Ver meu trabalho <Image src="/arrow-right.svg" alt="arrow right icon" width={12} height={12}/></button></Link>
-        <Link href="/"><button className="flex w-full border rounded-md justify-center gap-2 mt-3 p-1.5 text-[#2D2D2D]"><Image src="/envelope.svg" alt="envelope" width={16} height={16} />Entre em Contato</button></Link>
+        <h1 className="text-[#2D2D2D] font-bold text-4xl pb-7">
+          Desenvolvedor Front-End &{" "}
+          <span className="text-[#990000]">Designer UI/UX</span>
+        </h1>
+        <p className="text-[#2D2D2D] opacity-80 text-lg font-[Arial] pb-6">
+          Sou um desenvolvedor Front-End e Designer UI/UX, estou à 1 ano meio
+          programando, criando projetos pessoais para aprimorar minhas
+          habilidades como programador. Procuro oportunidades para entrar no
+          mercado de trabalho e me desenvolver profissionalmente.
+        </p>
+        <Link href="#projects">
+          <button className="flex w-full gap-2 justify-center items-center bg-[#CC0000] text-white p-2 rounded-md">
+            Ver meu trabalho{" "}
+            <Image
+              src="/arrow-right.svg"
+              alt="arrow right icon"
+              width={12}
+              height={12}
+            />
+          </button>
+        </Link>
+        <Link href="/">
+          <button className="flex w-full border rounded-md justify-center gap-2 mt-3 p-1.5 text-[#2D2D2D]">
+            <Image src="/envelope.svg" alt="envelope" width={16} height={16} />
+            Entre em Contato
+          </button>
+        </Link>
         <div className="flex gap-5 mt-4 justify-center">
-         <Link href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"><button><Image src="/github-mark.svg" alt="Github icon" width={28} height={28}/></button></Link>
-         <Link href="https://www.linkedin.com/in/andrei-soares/"><button><Image src="/linkedin.svg" alt="linkedin icon" width={28} height={28}/></button></Link>
-         <Link href="/"><button><Image src="/envelope.svg" alt="envelope" width={30} height={30}/></button></Link>
+          <Link href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13">
+            <button>
+              <Image
+                src="/github-mark.svg"
+                alt="Github icon"
+                width={28}
+                height={28}
+              />
+            </button>
+          </Link>
+          <Link href="https://www.linkedin.com/in/andrei-soares/">
+            <button>
+              <Image
+                src="/linkedin.svg"
+                alt="linkedin icon"
+                width={28}
+                height={28}
+              />
+            </button>
+          </Link>
+          <Link href="/">
+            <button>
+              <Image
+                src="/envelope.svg"
+                alt="envelope"
+                width={30}
+                height={30}
+              />
+            </button>
+          </Link>
         </div>
         <div className="relative mt-8 ">
-         <div className="relative w-full max-w-md mx-auto">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
-           <Image src="/" alt="Andrei Soares" width={400} height={400} className="relative rounded-full border-4 border-white shadow-2xl"/>
-         </div>
+          <div className="relative w-full max-w-md mx-auto">
+            <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
+            <Image
+              src="/"
+              alt="Andrei Soares"
+              width={400}
+              height={400}
+              className="relative rounded-full border-4 border-white shadow-2xl"
+            />
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

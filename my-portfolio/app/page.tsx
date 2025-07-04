@@ -1,4 +1,5 @@
 import AboutMe from "@/components/About-me";
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import MyProjects from "@/components/MyProjects";
 import SelfIntroduction from "@/components/Self-introduction";
@@ -15,6 +16,9 @@ export default function Home() {
       </section>
       <section>
         <MyProjects />
+      </section>
+      <section>
+        <Experience />
       </section>
     </div>
   );

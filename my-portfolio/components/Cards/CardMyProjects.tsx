@@ -16,7 +16,7 @@ export function CardMyProjects() {
           <Image src="/" alt="Imagem do projeto" width={230} height={130} />
           <div className="flex justify-end mt-2 gap-3">
             <Link href={"/"}>
-              <button className="bg-[#C50000] rounded-md p-2">
+              <button className="bg-[#CC0000] rounded-md p-2">
                 <Image
                   src={"/arrow-up-right-from-square.svg"}
                   alt="arrow up right from square icon"
@@ -49,10 +49,10 @@ export function CardMyProjects() {
           precisam ser realizadas diáriamente.
         </p>
       </CardContent>
-      <CardFooter className="flex-col gap-2">
-        <div>
-          <Badge>React</Badge>
-          <Badge>CSS</Badge>
+      <CardFooter>
+        <div className="flex w-full justify-center gap-3">
+          <Badge className="bg-[#CC0000] text-white rounded-xl">React</Badge>
+          <Badge className="bg-[#B4A76C] text-[#2D2D2D] rounded-xl">CSS</Badge>
         </div>
       </CardFooter>
     </Card>

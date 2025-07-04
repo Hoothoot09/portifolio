@@ -15,7 +15,7 @@ export function CardMyProjects() {
         <div>
           <Image src="/" alt="Imagem do projeto" width={250} height={130} />
           <div className="flex justify-end mt-2 gap-3">
-            <Link href="/">
+            <Link href={"/"}>
               <button className="bg-[#C50000] rounded-md p-2">
                 <Image
                   src={"/arrow-up-right-from-square.svg"}
@@ -25,7 +25,16 @@ export function CardMyProjects() {
                 />
               </button>
             </Link>
-            <button>GitHub</button>
+            <Link href={"/"}>
+              <button className="flex justify-center items-center bg-[#B4A76C] rounded-md p-2 ">
+                <Image
+                  src={"/github.svg"}
+                  alt="GitHub icon"
+                  width={20}
+                  height={20}
+                />
+              </button>
+            </Link>
           </div>
         </div>
       </CardHeader>

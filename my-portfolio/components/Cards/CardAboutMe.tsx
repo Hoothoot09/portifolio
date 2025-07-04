@@ -19,7 +19,7 @@ export function CardAboutMe() {
           CSS.
         </CardDescription>
       </CardHeader>
-      <CardContent className="flex flex-wrap gap-2 mt-2">
+      <CardContent className="flex flex-wrap justify-center gap-2 mt-2">
         <Badge className="mt-2 text-white bg-[#C50000] rounded-xl">React</Badge>
         <Badge className="mt-2 text-[#2D2D2D] bg-[#B4A76C] rounded-xl">
           Next.js

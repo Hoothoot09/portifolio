@@ -70,7 +70,7 @@ export default function SelfIntroduction() {
           <Link href="/">
             <button>
               <Image
-                src="/envelope.svg"
+                src="/envelope-gray-dark.svg"
                 alt="envelope"
                 width={30}
                 height={30}

@@ -10,10 +10,10 @@ import Link from "next/link";
 
 export function CardMyProjects() {
   return (
-    <Card>
+    <Card className="border-[#D2D2D2] rounded-lg shadow-lg">
       <CardHeader>
         <div>
-          <Image src="/" alt="Imagem do projeto" width={250} height={130} />
+          <Image src="/" alt="Imagem do projeto" width={230} height={130} />
           <div className="flex justify-end mt-2 gap-3">
             <Link href={"/"}>
               <button className="bg-[#C50000] rounded-md p-2">

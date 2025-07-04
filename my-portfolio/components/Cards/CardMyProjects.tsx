@@ -39,8 +39,12 @@ export function CardMyProjects() {
         </div>
       </CardHeader>
       <CardContent>
-        <h2>TodoList</h2>
-        <p>
+        <div className="mb-4">
+          <h2 className="text-2xl text-center text-[#2D2D2D] font-bold">
+            TodoList
+          </h2>
+        </div>
+        <p className="text-lg text-[#2D2D2D] opacity-80">
           Site desenvolvido para que usuários possam listar suas tarefas, que
           precisam ser realizadas diáriamente.
         </p>

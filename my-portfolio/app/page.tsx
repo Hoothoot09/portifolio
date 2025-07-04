@@ -1,6 +1,7 @@
 import AboutMe from "@/components/About-me";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MyProjects from "@/components/MyProjects";
 import SelfIntroduction from "@/components/Self-introduction";
@@ -24,6 +25,9 @@ export default function Home() {
       <section>
         <Contact />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

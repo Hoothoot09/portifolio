@@ -10,10 +10,10 @@ import Link from "next/link";
 
 export function CardMyProjects() {
   return (
-    <Card>
+    <Card className="border-[#D2D2D2] rounded-lg shadow-lg">
       <CardHeader>
         <div>
-          <Image src="/" alt="Imagem do projeto" width={250} height={130} />
+          <Image src="/" alt="Imagem do projeto" width={230} height={130} />
           <div className="flex justify-end mt-2 gap-3">
             <Link href={"/"}>
               <button className="bg-[#C50000] rounded-md p-2">
@@ -39,8 +39,12 @@ export function CardMyProjects() {
         </div>
       </CardHeader>
       <CardContent>
-        <h2>TodoList</h2>
-        <p>
+        <div className="mb-4">
+          <h2 className="text-2xl text-center text-[#2D2D2D] font-bold">
+            TodoList
+          </h2>
+        </div>
+        <p className="text-lg text-[#2D2D2D] opacity-80">
           Site desenvolvido para que usuários possam listar suas tarefas, que
           precisam ser realizadas diáriamente.
         </p>

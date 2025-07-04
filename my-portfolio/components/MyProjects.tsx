@@ -1,4 +1,5 @@
-import { CardMyProjects } from "./Cards/CardMyProjects";
+import { CardTodoList } from "./Cards/CardTodoList";
+import { CardAzevedoStore } from "./Cards/CardAzevedoStore";
 
 export default function MyProjects() {
   return (
@@ -11,7 +12,12 @@ export default function MyProjects() {
       <p className="text-xl text-[2D2D2D] opacity-80 max-w-xl mb-6">
         Meus trabalhos e projetos pessoais mais recentes.
       </p>
-      <CardMyProjects />
+      <div className="mb-5">
+        <CardTodoList />
+      </div>
+      <div>
+        <CardAzevedoStore />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { CardAboutMe } from "./CardAboutMe";
+import { CardAboutMe } from "@/components/Cards/CardAboutMe";
 
 export default function AboutMe() {
   return (

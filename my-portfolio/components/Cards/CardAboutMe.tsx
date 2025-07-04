@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "./ui/badge";
+import { Badge } from "@/components/ui/badge";
 
 export function CardAboutMe() {
   return (

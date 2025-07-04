@@ -37,7 +37,12 @@ export default function SelfIntroduction() {
         </Link>
         <Link href="/">
           <button className="flex w-full border rounded-md justify-center gap-2 mt-3 p-1.5 text-[#2D2D2D]">
-            <Image src="/envelope.svg" alt="envelope" width={16} height={16} />
+            <Image
+              src="/envelope-gray-dark.svg"
+              alt="envelope"
+              width={16}
+              height={16}
+            />
             Entre em Contato
           </button>
         </Link>

@@ -15,7 +15,7 @@ export function CardTodoList() {
         <div>
           <Image src="/" alt="Imagem do projeto" width={230} height={130} />
           <div className="flex justify-end mt-2 gap-3">
-            <Link href={"/"}>
+            <Link href={"https://todo-list-sigma-vert.vercel.app/"}>
               <button className="bg-[#CC0000] rounded-md p-2">
                 <Image
                   src={"/arrow-up-right-from-square.svg"}
@@ -25,7 +25,7 @@ export function CardTodoList() {
                 />
               </button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"https://github.com/Hoothoot09/TodoList"}>
               <button className="flex justify-center items-center bg-[#B4A76C] rounded-md p-2 ">
                 <Image
                   src={"/github.svg"}

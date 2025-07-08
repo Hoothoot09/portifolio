@@ -39,7 +39,7 @@ export default function Footer() {
           </button>
         </Link>
       </div>
-      <p className="text-center text-white opacity-70 mt-4 border-t border-white opacity-20 pt-8">
+      <p className="text-center text-white/70 mt-4 mb-4 border-t border-white/20 pt-8">
         © 2025 Andrei Soares. Todos os direitos reservados.
       </p>
     </div>

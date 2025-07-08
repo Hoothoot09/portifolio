@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SelfIntroduction() {
   return (
-    <div>
+    <div className="py-10">
       <div className="flex gap-1 items-center">
         <Image
           src="/localization.svg"
@@ -79,13 +79,13 @@ export default function SelfIntroduction() {
           </Link>
         </div>
         <div className="relative mt-8 ">
-          <div className="relative w-full max-w-md mx-auto">
+          <div className="flex justify-center relative w-full max-w-md mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
             <Image
               src="/"
               alt="Andrei Soares"
-              width={400}
-              height={400}
+              width={240}
+              height={240}
               className="relative rounded-full border-4 border-white shadow-2xl"
             />
           </div>

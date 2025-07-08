@@ -35,7 +35,7 @@ export default function SelfIntroduction() {
             />
           </button>
         </Link>
-        <Link href="/">
+        <Link href="mailto:andreicarvalho1370@gmail.com">
           <button className="flex w-full border rounded-md justify-center gap-2 mt-3 p-1.5 text-[#2D2D2D]">
             <Image
               src="/envelope-gray-dark.svg"
@@ -67,7 +67,7 @@ export default function SelfIntroduction() {
               />
             </button>
           </Link>
-          <Link href="/">
+          <Link href="mailto:andreicarvalho1370@gmail.com">
             <button>
               <Image
                 src="/envelope-gray-dark.svg"

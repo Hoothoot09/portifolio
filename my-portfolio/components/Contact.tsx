@@ -12,7 +12,10 @@ export default function Contact() {
         desenvolver minhas habilidades.
       </p>
       <div className="flex flex-col w-full items-center gap-3">
-        <Link href={"/"} className="w-full justify-center">
+        <Link
+          href={"mailto:andreicarvalho1370@gmail.com"}
+          className="w-full justify-center"
+        >
           <button className="flex w-full items-center justify-center bg-[#CC0000] text-white p-2 rounded-md gap-2">
             <Image
               src={"/envelope-white.svg"}

@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </button>
         </Link>
-        <Link href={"/"}>
+        <Link href={"mailto:andreicarvalho1370@gmail.com"}>
           <button>
             <Image
               src={"/envelope-white.svg"}

@@ -1,46 +1,37 @@
-'use client'
+"use client";
 
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 export function DropdownMenuHeader() {
-
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-         <Image src={'/menu.svg'} width={24} height={24} alt={"Menu"}/>
+      <DropdownMenuTrigger asChild className="min-sm:hidden">
+        <Image src={"/menu.svg"} width={24} height={24} alt={"Menu"} />
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-auto bg-[#CC0000]">
+      <DropdownMenuContent className="w-10 bg-[#CC0000] mt-0 mr-1">
         <DropdownMenuGroup>
           <Link href={"#about"} className="w-full text-white">
-            <DropdownMenuItem>
-             About
-            </DropdownMenuItem>
+            <DropdownMenuItem>About</DropdownMenuItem>
           </Link>
           <Link href={"#projects"} className="w-full text-white">
-            <DropdownMenuItem>
-             Projects
-            </DropdownMenuItem>
+            <DropdownMenuItem>Projects</DropdownMenuItem>
           </Link>
           <Link href={"#experience"} className="w-full text-white">
-            <DropdownMenuItem>
-             Experience
-            </DropdownMenuItem>
+            <DropdownMenuItem>Experience</DropdownMenuItem>
           </Link>
           <Link href={"#contacts"} className="w-full text-white">
-            <DropdownMenuItem>
-             Contacts
-            </DropdownMenuItem>
+            <DropdownMenuItem>Contacts</DropdownMenuItem>
           </Link>
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }

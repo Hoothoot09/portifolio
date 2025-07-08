@@ -8,7 +8,11 @@ export default function Footer() {
         Andrei Soares
       </h2>
       <div className="flex justify-center items-center gap-6">
-        <Link href={"/"}>
+        <Link
+          href={
+            "https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
+          }
+        >
           <button>
             <Image
               src={"/github-white.svg"}
@@ -18,7 +22,7 @@ export default function Footer() {
             />
           </button>
         </Link>
-        <Link href={"/"}>
+        <Link href={"https://www.linkedin.com/in/andrei-soares/"}>
           <button>
             <Image
               src={"/linkedin-white.svg"}

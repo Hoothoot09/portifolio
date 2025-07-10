@@ -3,7 +3,10 @@ import { CardAzevedoStore } from "./Cards/CardAzevedoStore";
 
 export default function MyProjects() {
   return (
-    <div className="flex flex-col items-center justify-center max-w-7xl mx-auto p-4">
+    <div
+      id="projects"
+      className="flex flex-col items-center justify-center max-w-7xl mx-auto p-4"
+    >
       <div className="mb-5">
         <h1 className="text-3xl text-center text-[#2D2D2D] font-bold">
           Projetos em Destaques

@@ -2,7 +2,10 @@ import { CardAboutMe } from "@/components/Cards/CardAboutMe";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col w-full p-3 mt-6 justify-center items-center">
+    <div
+      id="about"
+      className="flex flex-col w-full p-3 mt-6 justify-center items-center"
+    >
       <div className="mb-5">
         <h1 className="text-3xl text-[#2D2D2D] font-bold">Sobre Mim</h1>
       </div>

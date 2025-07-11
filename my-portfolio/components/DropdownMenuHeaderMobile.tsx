@@ -32,6 +32,7 @@ export function DropdownMenuHeader() {
             onClick={(e) => {
               handleClick(e, "about");
             }}
+            className="text-white"
           >
             About
           </DropdownMenuItem>
@@ -39,6 +40,7 @@ export function DropdownMenuHeader() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
+            className="text-white"
           >
             Projects
           </DropdownMenuItem>
@@ -46,6 +48,7 @@ export function DropdownMenuHeader() {
             onClick={(e) => {
               handleClick(e, "experience");
             }}
+            className="text-white"
           >
             Experience
           </DropdownMenuItem>
@@ -54,6 +57,7 @@ export function DropdownMenuHeader() {
             onClick={(e) => {
               handleClick(e, "contacts");
             }}
+            className="text-white"
           >
             Contacts
           </DropdownMenuItem>

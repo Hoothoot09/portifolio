@@ -4,7 +4,8 @@ export default function AboutMe() {
   return (
     <div
       id="about"
-      className="flex flex-col w-full p-3 mt-6 justify-center items-center"
+      className="flex flex-col w-full p-3 pt-[53px] mt-6
+      justify-center items-center"
     >
       <div className="mb-5">
         <h1 className="text-3xl text-[#2D2D2D] font-bold">Sobre Mim</h1>

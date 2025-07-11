@@ -11,7 +11,7 @@ export default function Contact() {
         Estou sempre interessados em novas oportunidades para me desafiar e me
         desenvolver minhas habilidades.
       </p>
-      <div className="flex flex-col w-full items-center gap-3">
+      <div className="flex flex-col w-full items-center gap-3 mb-5">
         <Link
           href={"mailto:andreicarvalho1370@gmail.com"}
           className="w-full justify-center"

@@ -23,7 +23,7 @@ export function DropdownMenuHeader() {
 
   return (
     <DropdownMenu open={open} onOpenChange={setOpen}>
-      <DropdownMenuTrigger asChild className="min-sm:hidden">
+      <DropdownMenuTrigger asChild className="min-md:hidden">
         <Image src={"/menu.svg"} width={24} height={24} alt={"Menu"} />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-10 bg-[#CC0000] mt-0 mr-1">

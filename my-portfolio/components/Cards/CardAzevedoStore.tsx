@@ -21,7 +21,7 @@ export function CardAzevedoStore() {
             height={200}
             className="w-full h-48 object-cover"
           />
-          <div className="flex justify-end mt-2 gap-3">
+          <div className="flex justify-end mt-2 gap-3 mr-2">
             <Link href={"https://azevedo-store-sigma.vercel.app/"}>
               <button className="bg-[#CC0000] rounded-md p-2">
                 <Image

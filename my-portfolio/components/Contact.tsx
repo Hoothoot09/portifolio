@@ -7,7 +7,7 @@ export default function Contact() {
       <h1 className="text-3xl text-center text-[#2D2D2D] font-bold mt-4 mb-4">
         Vamos Trabalhar Juntos!
       </h1>
-      <p className="text-xl text-[#2D2D2D] opacity-80 mb-8">
+      <p className="text-xl text-center text-[#2D2D2D] opacity-80 mb-8">
         Estou sempre interessados em novas oportunidades para me desafiar e me
         desenvolver minhas habilidades.
       </p>

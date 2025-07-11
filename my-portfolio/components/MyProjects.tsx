@@ -12,7 +12,7 @@ export default function MyProjects() {
           Projetos em Destaques
         </h1>
       </div>
-      <p className="text-xl text-[2D2D2D] opacity-80 max-w-xl mb-6">
+      <p className="text-xl text-center text-[2D2D2D] opacity-80 max-w-xl mb-6">
         Meus trabalhos e projetos pessoais mais recentes.
       </p>
       <div className="mb-5">

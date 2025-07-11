@@ -1,7 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function SelfIntroduction() {
+  const handleClick = (event: React.MouseEvent<HTMLElement>, id: string) => {
+    event.preventDefault();
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="py-10">
       <div className="flex gap-1 items-center">
@@ -24,17 +33,20 @@ export default function SelfIntroduction() {
           habilidades como programador. Procuro oportunidades para entrar no
           mercado de trabalho e me desenvolver profissionalmente.
         </p>
-        <Link href="#projects">
-          <button className="flex w-full gap-2 justify-center items-center bg-[#CC0000] text-white p-2 rounded-md">
-            Ver meu trabalho{" "}
-            <Image
-              src="/arrow-right.svg"
-              alt="arrow right icon"
-              width={12}
-              height={12}
-            />
-          </button>
-        </Link>
+        <button
+          onClick={(e) => {
+            handleClick(e, "projects");
+          }}
+          className="flex w-full gap-2 justify-center items-center bg-[#CC0000] text-white p-2 rounded-md"
+        >
+          Ver meu trabalho
+          <Image
+            src="/arrow-right.svg"
+            alt="arrow right icon"
+            width={12}
+            height={12}
+          />
+        </button>
         <Link href="mailto:andreicarvalho1370@gmail.com">
           <button className="flex w-full border rounded-md justify-center gap-2 mt-3 p-1.5 text-[#2D2D2D]">
             <Image

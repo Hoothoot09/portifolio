@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <div id="experience" className="w-full p-2">
+    <div id="experience" className="w-full p-2 pt-[53px]">
       <h2 className="text-3xl text-center text-[#2D2D2D] font-bold">
         Experiência
       </h2>

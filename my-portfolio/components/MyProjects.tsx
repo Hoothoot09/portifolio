@@ -5,7 +5,7 @@ export default function MyProjects() {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center max-w-7xl mx-auto p-4"
+      className="flex flex-col items-center justify-center max-w-7xl mx-auto p-4 pt-[53px]"
     >
       <div className="mb-5">
         <h1 className="text-3xl text-center text-[#2D2D2D] font-bold">

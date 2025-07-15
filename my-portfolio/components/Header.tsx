@@ -16,7 +16,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed w-full max-md:p-3 px-30 py-4 items-center bg-white border-b border-gray-300 z-10">
+    <header className="fixed w-full max-xl:px-5 px-30 py-4 items-center bg-white border-b border-gray-300 z-10">
       <div className="flex justify-between">
         <Link
           href={"/"}
@@ -24,7 +24,7 @@ export default function Header() {
         >
           Andrei Soares
         </Link>
-        <div className="flex justify-center items-center gap-10 max-md:hidden">
+        <div className="flex justify-center items-center gap-10 max-lg:hidden">
           <button
             onClick={(e) => {
               handleClick(e, "about");
@@ -60,7 +60,7 @@ export default function Header() {
         </div>
         <div className="flex gap-2">
           <DropdownMenuHeader />
-          <button className="flex px-4 items-center border border-[#CC0000] rounded-md gap-2 text-lg text-[#CC0000] cursor-pointer">
+          <button className="flex px-4 items-center border border-[#CC0000] rounded-md gap-2 text-lg text-[#CC0000] cursor-pointer max-lg:hidden">
             <Image
               src={"/download-red.svg"}
               alt="gold download icon"

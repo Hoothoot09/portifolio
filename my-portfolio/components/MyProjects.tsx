@@ -12,14 +12,16 @@ export default function MyProjects() {
           Projetos em Destaques
         </h1>
       </div>
-      <p className="text-xl text-center text-[2D2D2D] opacity-80 max-w-xl mb-6">
+      <p className="text-xl text-center text-[2D2D2D] opacity-80 max-w-xl mb-8">
         Meus trabalhos e projetos pessoais mais recentes.
       </p>
-      <div className="mb-5">
-        <CardTodoList />
-      </div>
-      <div className="mb-5">
-        <CardAzevedoStore />
+      <div className="flex max-lg:flex-col w-full justify-center gap-10 mb-6">
+        <div>
+          <CardTodoList />
+        </div>
+        <div>
+          <CardAzevedoStore />
+        </div>
       </div>
     </div>
   );

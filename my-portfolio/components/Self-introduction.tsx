@@ -12,43 +12,46 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="py-10">
-      <div className="flex gap-1 items-center">
-        <Image
-          src="/localization.svg"
-          alt="localization icon"
-          width={12}
-          height={12}
-        />
-        <span className="text-[#2D2D2D]">Salvador, BA</span>
-      </div>
-      <div>
+    <div className="min-lg:flex min-md:gap-20 py-10">
+      <div className="min-md:flex min-md:flex-wrap min-md:flex-col">
+        <div className="flex gap-1 items-center">
+          <Image
+            src="/localization.svg"
+            alt="localization icon"
+            width={12}
+            height={12}
+          />
+          <span className="text-[#2D2D2D]">Salvador, BA</span>
+        </div>
         <h1 className="text-[#2D2D2D] font-bold text-4xl pb-7">
           Desenvolvedor Front-End &{" "}
           <span className="text-[#990000]">Designer UI/UX</span>
         </h1>
-        <p className="text-[#2D2D2D] opacity-80 text-lg font-[Arial] pb-6">
+        <p className="text-[#2D2D2D] opacity-80 text-xl font-[Arial] pb-6">
           Sou um desenvolvedor Front-End e Designer UI/UX, estou à 1 ano meio
           programando, criando projetos pessoais para aprimorar minhas
           habilidades como programador. Procuro oportunidades para entrar no
           mercado de trabalho e me desenvolver profissionalmente.
         </p>
-        <button
-          onClick={(e) => {
-            handleClick(e, "projects");
-          }}
-          className="flex w-full gap-2 justify-center items-center bg-[#CC0000] text-white p-2 rounded-md"
-        >
-          Ver meu trabalho
-          <Image
-            src="/arrow-right.svg"
-            alt="arrow right icon"
-            width={12}
-            height={12}
-          />
-        </button>
-        <Link href="mailto:andreicarvalho1370@gmail.com">
-          <button className="flex w-full border rounded-md justify-center gap-2 mt-3 p-1.5 text-[#2D2D2D]">
+        <div className="min-lg:flex gap-3 max-lg:items-center">
+          <button
+            onClick={(e) => {
+              handleClick(e, "projects");
+            }}
+            className="flex w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white cursor-pointer"
+          >
+            Ver meu trabalho
+            <Image
+              src="/arrow-right.svg"
+              alt="arrow right icon"
+              width={12}
+              height={12}
+            />
+          </button>
+          <Link
+            href="mailto:andreicarvalho1370@gmail.com"
+            className="flex w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D]"
+          >
             <Image
               src="/envelope-gray-dark.svg"
               alt="envelope"
@@ -56,51 +59,45 @@ export default function SelfIntroduction() {
               height={16}
             />
             Entre em Contato
-          </button>
-        </Link>
-        <div className="flex gap-5 mt-4 justify-center">
-          <Link href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13">
-            <button>
-              <Image
-                src="/github-mark.svg"
-                alt="Github icon"
-                width={28}
-                height={28}
-              />
-            </button>
-          </Link>
-          <Link href="https://www.linkedin.com/in/andrei-soares/">
-            <button>
-              <Image
-                src="/linkedin.svg"
-                alt="linkedin icon"
-                width={28}
-                height={28}
-              />
-            </button>
-          </Link>
-          <Link href="mailto:andreicarvalho1370@gmail.com">
-            <button>
-              <Image
-                src="/envelope-gray-dark.svg"
-                alt="envelope"
-                width={30}
-                height={30}
-              />
-            </button>
           </Link>
         </div>
-        <div className="relative mt-8 ">
-          <div className="flex justify-center relative w-full max-w-md mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
+        <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7 max-md:justify-center">
+          <Link href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13">
             <Image
-              src="/"
-              alt="Andrei Soares"
-              width={240}
-              height={240}
-              className="relative rounded-full border-4 border-white shadow-2xl"
+              src="/github-mark.svg"
+              alt="Github icon"
+              width={28}
+              height={28}
             />
-          </div>
+          </Link>
+          <Link href="https://www.linkedin.com/in/andrei-soares/">
+            <Image
+              src="/linkedin.svg"
+              alt="linkedin icon"
+              width={28}
+              height={28}
+            />
+          </Link>
+          <Link href="mailto:andreicarvalho1370@gmail.com">
+            <Image
+              src="/envelope-gray-dark.svg"
+              alt="envelope"
+              width={30}
+              height={30}
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="relative mt-8">
+        <div className="flex justify-center relative w-full max-w-md mx-auto">
+          <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
+          <Image
+            src="/"
+            alt="Andrei Soares"
+            width={400}
+            height={400}
+            className="relative rounded-full border-4 border-white shadow-2xl"
+          />
         </div>
       </div>
     </div>

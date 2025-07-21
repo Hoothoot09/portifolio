@@ -11,32 +11,28 @@ export default function Contact() {
         Estou sempre interessados em novas oportunidades para me desafiar e me
         desenvolver minhas habilidades.
       </p>
-      <div className="flex flex-col w-full items-center gap-3 mb-5">
+      <div className="flex max-md:flex-col w-full min-lg:px-96 items-center gap-3 mb-5">
         <Link
           href={"mailto:andreicarvalho1370@gmail.com"}
-          className="w-full justify-center"
+          className="flex w-full items-center justify-center bg-[#CC0000] hover:bg-[#990000] border border-[#CC0000] text-white p-2 rounded-md gap-2"
         >
-          <button className="flex w-full items-center justify-center bg-[#CC0000] text-white p-2 rounded-md gap-2">
-            <Image
-              src={"/envelope-white.svg"}
-              alt="white envelope icon"
-              width={20}
-              height={20}
-            />
-            andreicarvalho1370@gmail.com
-          </button>
+          <Image
+            src={"/envelope-white.svg"}
+            alt="white envelope icon"
+            width={18}
+            height={18}
+          />
+          andreicarvalho1370@gmail.com
         </Link>
-        <Link href={"/"} className="w-full">
-          <button className="flex w-full justify-center items-center p-2 bg-white border border-[#B4A76C] text-[#B4A76C] rounded-md gap-2">
-            <Image
-              src={"/download-gold.svg"}
-              alt="gold download icon"
-              width={18}
-              height={18}
-            />
-            Baixar Curriculo
-          </button>
-        </Link>
+        <button className="flex w-full justify-center items-center p-2 bg-white border border-[#B4A76C] text-[#B4A76C] rounded-md gap-2 cursor-pointer">
+          <Image
+            src={"/download-gold.svg"}
+            alt="gold download icon"
+            width={16}
+            height={16}
+          />
+          Baixar Curriculo
+        </button>
       </div>
     </div>
   );

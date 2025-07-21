@@ -11,19 +11,19 @@ import Link from "next/link";
 
 export function CardAzevedoStore() {
   return (
-    <div className="flex md:flex-cols-2 lg:flex-cols-3 gap-8">
-      <Card className="group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
+    <div className="flex min-lg:w-[375px]">
+      <Card className="w-full group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
         <div className="relative overflow-hidden">
           <Image
             src="/"
             alt="Imagem do projeto"
-            width={200}
+            width={400}
             height={200}
             className="w-full h-48 object-cover"
           />
-          <div className="flex justify-end mt-2 gap-3 mr-2">
+          <div className="absolute inset-0 bg-corporate-gray-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
             <Link href={"https://azevedo-store-sigma.vercel.app/"}>
-              <button className="bg-[#CC0000] rounded-md p-2">
+              <button className=" bg-[#CC0000] hover:bg-[#990000] rounded-md p-2 cursor-pointer">
                 <Image
                   src={"/arrow-up-right-from-square.svg"}
                   alt="arrow up right from square icon"
@@ -33,7 +33,7 @@ export function CardAzevedoStore() {
               </button>
             </Link>
             <Link href={"https://github.com/Hoothoot09/azevedo-store"}>
-              <button className="flex justify-center items-center bg-[#B4A76C] rounded-md p-2 ">
+              <button className="flex justify-center items-center bg-[#B4A76C] hover:bg-[#B4A76C]/80 rounded-md p-2 cursor-pointer">
                 <Image
                   src={"/github.svg"}
                   alt="GitHub icon"
@@ -56,16 +56,16 @@ export function CardAzevedoStore() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-3">
-            <Badge className="bg-[#CC0000] text-white rounded-xl">
+            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] rounded-xl">
               Next.js
             </Badge>
-            <Badge className="bg-[#B4A76C] text-[#2D2D2D] rounded-xl">
+            <Badge className="bg-white text-[#B4A76C] border border-[#B4A76C] rounded-xl">
               TypeScript
             </Badge>
-            <Badge className="bg-[#CC0000] text-white rounded-xl">
+            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] rounded-xl">
               JavaScript
             </Badge>
-            <Badge className="bg-[#B4A76C] text-[#2D2D2D] rounded-xl">
+            <Badge className="bg-white text-[#B4A76C] border border-[#B4A76C] rounded-xl">
               TailWind CSS
             </Badge>
           </CardContent>

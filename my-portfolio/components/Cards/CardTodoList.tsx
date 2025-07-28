@@ -46,25 +46,25 @@ export function CardTodoList() {
         </div>
         <div className="bg-white">
           <CardHeader className="mb-4">
-            <CardTitle className="text-2xl text-center text-[#2D2D2D] font-bold">
+            <CardTitle className="text-2xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               TodoList
             </CardTitle>
-            <CardDescription className="text-[#2D2D2D] opacity-70">
+            <CardDescription className="text-[#2D2D2D] font-[Arial] opacity-70">
               Site desenvolvido para que usuários possam listar suas tarefas,
               que precisam ser realizadas diáriamente.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-3">
-            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] rounded-xl">
+            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
               React
             </Badge>
-            <Badge className="bg-white text-[#B4A76C] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-white text-[#B4A76C] font-[Arial] border border-[#B4A76C] rounded-xl">
               JavaScript
             </Badge>
-            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] rounded-xl">
+            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
               CSS
             </Badge>
-            <Badge className="bg-white text-[#B4A76C] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-white text-[#B4A76C] font-[Arial] border border-[#B4A76C] rounded-xl">
               HTML
             </Badge>
           </CardContent>

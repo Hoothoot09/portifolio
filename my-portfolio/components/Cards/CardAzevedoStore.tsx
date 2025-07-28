@@ -46,26 +46,26 @@ export function CardAzevedoStore() {
         </div>
         <div className="bg-white">
           <CardHeader className="mb-4">
-            <CardTitle className="text-2xl text-center text-[#2D2D2D] font-bold">
+            <CardTitle className="text-2xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               Azevedo Store
             </CardTitle>
-            <CardDescription className="text-[#2D2D2D] opacity-70">
+            <CardDescription className="text-[#2D2D2D] font-[Arial] opacity-70">
               Loja virtual desenvolvida para a venda de produtos voltado para o
               jogo CS:GO 2, nesse site os usuários poderiam comprar skins para
               modificar as suas armas.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-3">
-            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] rounded-xl">
+            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
               Next.js
             </Badge>
-            <Badge className="bg-white text-[#B4A76C] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-white text-[#B4A76C] font-[Arial] border border-[#B4A76C] rounded-xl">
               TypeScript
             </Badge>
-            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] rounded-xl">
+            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
               JavaScript
             </Badge>
-            <Badge className="bg-white text-[#B4A76C] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-white text-[#B4A76C] font-[Arial] border border-[#B4A76C] rounded-xl">
               TailWind CSS
             </Badge>
           </CardContent>

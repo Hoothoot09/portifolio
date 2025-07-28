@@ -12,8 +12,8 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="min-lg:flex min-md:gap-20 py-10">
-      <div className="min-md:flex min-md:flex-wrap min-md:flex-col">
+    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 min-xl:gap-80 py-10 min-xl:px-30">
+      <div className="min-lg:flex min-md:flex-wrap min-md:flex-col">
         <div className="flex gap-1 items-center">
           <Image
             src="/localization.svg"
@@ -38,7 +38,7 @@ export default function SelfIntroduction() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="flex w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white cursor-pointer"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white cursor-pointer"
           >
             Ver meu trabalho
             <Image
@@ -50,7 +50,7 @@ export default function SelfIntroduction() {
           </button>
           <Link
             href="mailto:andreicarvalho1370@gmail.com"
-            className="flex w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D]"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D]"
           >
             <Image
               src="/envelope-gray-dark.svg"
@@ -61,7 +61,7 @@ export default function SelfIntroduction() {
             Entre em Contato
           </Link>
         </div>
-        <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7 max-md:justify-center">
+        <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7 max-lg:justify-center">
           <Link href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13">
             <Image
               src="/github-mark.svg"

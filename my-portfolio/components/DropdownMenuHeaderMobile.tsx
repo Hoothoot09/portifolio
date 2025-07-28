@@ -34,7 +34,7 @@ export function DropdownMenuHeader() {
             }}
             className="text-white"
           >
-            About
+            Sobre
           </DropdownMenuItem>
           <DropdownMenuItem
             onClick={(e) => {
@@ -42,7 +42,7 @@ export function DropdownMenuHeader() {
             }}
             className="text-white"
           >
-            Projects
+            Projetos
           </DropdownMenuItem>
           <DropdownMenuItem
             onClick={(e) => {
@@ -50,7 +50,7 @@ export function DropdownMenuHeader() {
             }}
             className="text-white"
           >
-            Experience
+            Experiência
           </DropdownMenuItem>
 
           <DropdownMenuItem
@@ -59,7 +59,7 @@ export function DropdownMenuHeader() {
             }}
             className="text-white"
           >
-            Contacts
+            Contatos
           </DropdownMenuItem>
         </DropdownMenuGroup>
       </DropdownMenuContent>

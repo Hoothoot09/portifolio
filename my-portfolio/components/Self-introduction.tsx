@@ -21,11 +21,11 @@ export default function SelfIntroduction() {
             width={12}
             height={12}
           />
-          <span className="text-[#2D2D2D]">Salvador, BA</span>
+          <span className="text-[#2D2D2D] font-[Roboto]">Salvador, BA</span>
         </div>
-        <h1 className="text-[#2D2D2D] font-bold text-4xl pb-7">
+        <h1 className="text-[#2D2D2D] font-[Georgia] font-bold text-4xl pb-7">
           Desenvolvedor Front-End &{" "}
-          <span className="text-[#990000]">Designer UI/UX</span>
+          <span className="text-[#990000] font-[Georgia]">Designer UI/UX</span>
         </h1>
         <p className="text-[#2D2D2D] opacity-80 text-xl font-[Arial] pb-6">
           Sou um desenvolvedor Front-End e Designer UI/UX, estou à 1 ano meio
@@ -38,7 +38,7 @@ export default function SelfIntroduction() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white cursor-pointer"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Arial] cursor-pointer group"
           >
             Ver meu trabalho
             <Image
@@ -46,11 +46,12 @@ export default function SelfIntroduction() {
               alt="arrow right icon"
               width={12}
               height={12}
+              className="transition-transform duration-300 group-hover:translate-x-3"
             />
           </button>
           <Link
             href="mailto:andreicarvalho1370@gmail.com"
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D]"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Arial]"
           >
             <Image
               src="/envelope-gray-dark.svg"

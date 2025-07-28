@@ -20,7 +20,7 @@ export default function Header() {
       <div className="flex justify-between">
         <Link
           href={"/"}
-          className="max-md:text-lg text-2xl font-bold text-[#2D2D2D]"
+          className="max-md:text-lg text-2xl text-[#2D2D2D] font-[Georgia] font-bold"
         >
           Andrei Soares
         </Link>
@@ -29,7 +29,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "about");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Sobre
           </button>
@@ -37,7 +37,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Projetos
           </button>
@@ -45,7 +45,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "experience");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Experiência
           </button>
@@ -53,14 +53,14 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "contacts");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Contato
           </button>
         </div>
         <div className="flex gap-2">
           <DropdownMenuHeader />
-          <button className="flex px-4 items-center border border-[#CC0000] rounded-md gap-2 text-lg text-[#CC0000] cursor-pointer max-lg:hidden">
+          <button className="flex px-4 items-center border border-[#CC0000] rounded-md gap-2 text-lg text-[#CC0000] font-[Arial] cursor-pointer max-lg:hidden">
             <Image
               src={"/download-red.svg"}
               alt="gold download icon"

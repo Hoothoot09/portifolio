@@ -15,11 +15,11 @@ export function CardTodoList() {
       <Card className="w-full group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
         <div className="relative overflow-hidden">
           <Image
-            src="/"
+            src="/imagem-todolist.svg"
             alt="Imagem do projeto"
             width={400}
             height={200}
-            className="w-full h-48 object-cover"
+            className="w-full h-48 object-cover rounded-t-md"
           />
           <div className="absolute inset-0 bg-corporate-gray-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
             <Link href={"https://todo-list-sigma-vert.vercel.app/"}>

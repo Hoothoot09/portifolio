@@ -15,7 +15,7 @@ export function CardAzevedoStore() {
       <Card className="w-full group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
         <div className="relative overflow-hidden">
           <Image
-            src="/"
+            src="azevedo-store.svg"
             alt="Imagem do projeto"
             width={400}
             height={200}

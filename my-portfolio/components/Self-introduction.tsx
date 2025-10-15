@@ -12,7 +12,7 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 min-xl:gap-80 py-10 min-xl:px-30">
+    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 min-xl:mr-10 py-10 min-xl:px-30">
       <div className="min-lg:flex min-md:flex-wrap min-md:flex-col">
         <div className="flex gap-1 items-center">
           <Image
@@ -89,14 +89,14 @@ export default function SelfIntroduction() {
           </Link>
         </div>
       </div>
-      <div className="relative mt-8">
-        <div className="flex justify-center relative w-full max-w-md mx-auto">
+      <div className="relative mb-8">
+        <div className="flex justify-center relative w-full max-w-3xl mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
           <Image
-            src="/"
+            src="/me.png"
             alt="Andrei Soares"
-            width={400}
-            height={400}
+            width={800}
+            height={800}
             className="relative rounded-full border-4 border-white shadow-2xl"
           />
         </div>

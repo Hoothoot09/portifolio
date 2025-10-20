@@ -63,7 +63,10 @@ export default function SelfIntroduction() {
           </Link>
         </div>
         <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7 max-lg:justify-center">
-          <Link href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13">
+          <Link
+            href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
+            className="p-1.5 rounded-md hover:bg-gray-50"
+          >
             <Image
               src="/github-mark.svg"
               alt="Github icon"
@@ -71,7 +74,10 @@ export default function SelfIntroduction() {
               height={28}
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/andrei-soares/">
+          <Link
+            href="https://www.linkedin.com/in/andrei-soares/"
+            className="p-1.5 rounded-md hover:bg-gray-50"
+          >
             <Image
               src="/linkedin.svg"
               alt="linkedin icon"
@@ -79,7 +85,10 @@ export default function SelfIntroduction() {
               height={28}
             />
           </Link>
-          <Link href="mailto:andreicarvalho1370@gmail.com">
+          <Link
+            href="mailto:andreicarvalho1370@gmail.com"
+            className="p-1.5 rounded-md hover:bg-gray-50"
+          >
             <Image
               src="/envelope-gray-dark.svg"
               alt="envelope"

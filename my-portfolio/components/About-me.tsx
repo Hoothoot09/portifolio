@@ -20,7 +20,10 @@ export default function AboutMe() {
           trabalho.
         </p>
       </div>
-      <CardAboutMe />
+      <div className="flex gap-4">
+        <CardAboutMe />
+        {/* <CardAboutMe /> */}
+      </div>
     </div>
   );
 }

@@ -15,8 +15,8 @@ export function CardAboutMe() {
           Desenvolvimento Front-End
         </CardTitle>
         <CardDescription className="text-lg text-[#2D2D2D] font-[Arial] opacity-80">
-          Especialista em React e Next.js. Aprendiz de TypeScript e Tailwind
-          CSS.
+          Estou me especializando em linguagens frontend como React, Next.js,
+          TypeScript
         </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-wrap justify-center gap-2 mt-2">

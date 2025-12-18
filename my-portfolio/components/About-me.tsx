@@ -1,4 +1,5 @@
-import { CardAboutMe } from "@/components/Cards/CardAboutMe";
+import { CardLanguageStudying } from "@/components/Cards/Cardlanguagestudying";
+import { CardFrameworkStudying } from "@/components/Cards/CardFrameworkStudying";
 
 export default function AboutMe() {
   return (
@@ -21,8 +22,8 @@ export default function AboutMe() {
         </p>
       </div>
       <div className="flex gap-4">
-        <CardAboutMe />
-        {/* <CardAboutMe /> */}
+        <CardLanguageStudying />
+        <CardFrameworkStudying />
       </div>
     </div>
   );

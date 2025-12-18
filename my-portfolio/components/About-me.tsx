@@ -14,8 +14,10 @@ export default function AboutMe() {
       </div>
       <div>
         <p className="max-w-xl text-xl text-center text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
-          Estou à 1 ano e meio estudando sobre linguagens de Front-End,
-          aprimorando e desenvolvendo minhas habilidades.
+          Estudo linguagens Front-end, com o intuito de aprimorar minhas
+          habilidades como programador e está sempre atualizando meus
+          conhecimentos nas tecnologias que estão mais em alta no mercado de
+          trabalho.
         </p>
       </div>
       <CardAboutMe />

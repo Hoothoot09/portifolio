@@ -29,9 +29,6 @@ export function CardLanguageStudying() {
         <Badge className="mt-2 text-white font-[Arial] bg-[#C50000] rounded-xl">
           TypeScript
         </Badge>
-        <Badge className="mt-2 text-[#2D2D2D] font-[Arial] bg-[#B4A76C] rounded-xl">
-          Tailwind CSS
-        </Badge>
       </CardContent>
     </Card>
   );

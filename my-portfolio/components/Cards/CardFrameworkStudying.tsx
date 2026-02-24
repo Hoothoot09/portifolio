@@ -15,20 +15,12 @@ export function CardFrameworkStudying() {
           Designer UI/UX
         </CardTitle>
         <CardDescription className="text-lg text-[#2D2D2D] font-[Arial] opacity-80">
-          Estou me especializando em linguagens frontend como React, Next.js,
-          TypeScript
+          Estou aprimorando minhas habilidades com reponsividade, design e
+          usabilidade, focando em criar interfaces intuitivas e atraentes. Para
+          qualquer tipo de usuários.
         </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-wrap justify-center gap-2 mt-2">
-        <Badge className="mt-2 text-white font-[Arial] bg-[#C50000] rounded-xl">
-          React
-        </Badge>
-        <Badge className="mt-2 text-[#2D2D2D] font-[Arial] bg-[#B4A76C] rounded-xl">
-          Next.js
-        </Badge>
-        <Badge className="mt-2 text-white font-[Arial] bg-[#C50000] rounded-xl">
-          TypeScript
-        </Badge>
         <Badge className="mt-2 text-[#2D2D2D] font-[Arial] bg-[#B4A76C] rounded-xl">
           Tailwind CSS
         </Badge>

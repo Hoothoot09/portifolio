@@ -1,4 +1,4 @@
-import { CardLanguageStudying } from "@/components/Cards/Cardlanguagestudying";
+import { CardLanguageStudying } from "@/components/Cards/CardLanguageStudying";
 import { CardFrameworkStudying } from "@/components/Cards/CardFrameworkStudying";
 
 export default function AboutMe() {
@@ -14,14 +14,14 @@ export default function AboutMe() {
         </h1>
       </div>
       <div>
-        <p className="max-w-xl text-xl text-center text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
+        <p className="max-w-xl max-sm:text-sm text-xl max-sm:text-justify text-center  text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
           Estudo linguagens Front-end, com o intuito de aprimorar minhas
           habilidades como programador e está sempre atualizando meus
           conhecimentos nas tecnologias que estão mais em alta no mercado de
           trabalho.
         </p>
       </div>
-      <div className="flex gap-4">
+      <div className=" flex justify-center max-sm:flex-col gap-4">
         <CardLanguageStudying />
         <CardFrameworkStudying />
       </div>

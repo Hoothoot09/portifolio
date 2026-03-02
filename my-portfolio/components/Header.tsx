@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { DropdownMenuHeader } from "./DropdownMenuHeaderMobile";
-import Image from "next/image";
 
 export default function Header() {
   const handleClick = (

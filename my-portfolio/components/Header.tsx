@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Header() {
   const handleClick = (
     event: React.MouseEvent<HTMLButtonElement>,
-    id: string
+    id: string,
   ) => {
     event.preventDefault();
     document.getElementById(id)?.scrollIntoView({
@@ -60,15 +60,6 @@ export default function Header() {
         </div>
         <div className="flex gap-2">
           <DropdownMenuHeader />
-          <button className="flex px-4 items-center border border-[#CC0000] rounded-md gap-2 text-lg text-[#CC0000] font-[Arial] cursor-pointer max-lg:hidden">
-            <Image
-              src={"/download-red.svg"}
-              alt="gold download icon"
-              width={18}
-              height={18}
-            />
-            Curriculo
-          </button>
         </div>
       </div>
     </header>

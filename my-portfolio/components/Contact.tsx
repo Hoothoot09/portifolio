@@ -24,15 +24,6 @@ export default function Contact() {
           />
           andreicarvalho1370@gmail.com
         </Link>
-        <button className="flex w-full justify-center items-center p-2 bg-white border border-[#B4A76C] text-[#B4A76C] font-[Arial] rounded-md gap-2 cursor-pointer">
-          <Image
-            src={"/download-gold.svg"}
-            alt="gold download icon"
-            width={16}
-            height={16}
-          />
-          Baixar Curriculo
-        </button>
       </div>
     </div>
   );

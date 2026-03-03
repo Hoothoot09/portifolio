@@ -13,7 +13,7 @@ export function CardTodoList() {
   return (
     <div className="flex min-lg:w-[375px] h-full">
       <Card className="w-full group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
-        <div className="relative overflow-hidden">
+        <div className="min-md:relative min-md:overflow-hidden">
           <Image
             src="/imagem-todolist.svg"
             alt="Imagem do projeto"
@@ -21,7 +21,7 @@ export function CardTodoList() {
             height={200}
             className="w-full h-48 object-cover rounded-t-md"
           />
-          <div className="absolute inset-0 bg-corporate-gray-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+          <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 gap-4">
             <Link href={"https://todo-list-sigma-vert.vercel.app/"}>
               <button className="bg-[#CC0000] hover:bg-[#990000] rounded-md p-2 cursor-pointer">
                 <Image

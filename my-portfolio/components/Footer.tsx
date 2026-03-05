@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="bg-[#2D2D2D] p-2 min-lg:px-80">
       <div className="min-lg:flex min-lg:justify-between">
-        <h2 className="text-2xl text-center text-white font-bold py-10 font-[Georgia]">
+        <h2 className="max-sm:text-xl text-2xl text-center text-white font-bold py-10 font-[Georgia]">
           Andrei Soares
         </h2>
         <div className="flex justify-center items-center min-lg:gap-3 gap-6">
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p className="text-center text-white/70 font-[Arial] mt-4 mb-4 border-t border-white/20 pt-8">
+        <p className="max-sm:text-sm text-center text-white/70 font-[Arial] mt-4 mb-4 border-t border-white/20 pt-8">
           © 2025 Andrei Soares. Todos os direitos reservados.
         </p>
       </div>

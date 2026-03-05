@@ -49,7 +49,7 @@ export function CardTodoList() {
             <CardTitle className="text-2xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               TodoList
             </CardTitle>
-            <CardDescription className="text-[#2D2D2D] font-[Arial] opacity-70">
+            <CardDescription className="max-sm:text-center text-[#2D2D2D] font-[Arial] opacity-70">
               Site desenvolvido para que usuários possam listar suas tarefas,
               que precisam ser realizadas diáriamente.
             </CardDescription>

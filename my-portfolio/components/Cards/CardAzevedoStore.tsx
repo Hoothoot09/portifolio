@@ -49,7 +49,7 @@ export function CardAzevedoStore() {
             <CardTitle className="text-2xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               Azevedo Store
             </CardTitle>
-            <CardDescription className="text-[#2D2D2D] font-[Arial] opacity-70">
+            <CardDescription className="max-sm:text-center text-[#2D2D2D] font-[Arial] opacity-70">
               Loja virtual desenvolvida para a venda de produtos voltado para o
               jogo CS:GO 2, nesse site os usuários poderiam comprar skins para
               modificar as suas armas.

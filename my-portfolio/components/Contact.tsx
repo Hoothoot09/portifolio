@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <div id="contacts" className="flex flex-col w-full p-2 bg-[#E0E0E0]">
-      <h1 className="text-3xl text-center text-[#2D2D2D] font-[Georgia] font-bold mt-4 mb-4">
+      <h1 className=" max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Georgia] font-bold mt-4 mb-4">
         Vamos Trabalhar Juntos!
       </h1>
-      <p className="text-xl text-center text-[#2D2D2D] font-[Arial] opacity-80 mb-8">
+      <p className="max-sm:text-sm text-xl max-sm:text-justify text-center text-[#2D2D2D] font-[Arial] opacity-80 mb-8">
         Estou sempre interessados em novas oportunidades para me desafiar e me
         desenvolver minhas habilidades.
       </p>

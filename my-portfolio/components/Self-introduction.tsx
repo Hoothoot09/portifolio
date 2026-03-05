@@ -23,11 +23,11 @@ export default function SelfIntroduction() {
           />
           <span className="text-[#2D2D2D] font-[Roboto]">Salvador, BA</span>
         </div>
-        <h1 className="text-[#2D2D2D] font-[Georgia] font-bold text-4xl pb-7">
+        <h1 className="text-[#2D2D2D] font-[Georgia] font-bold max-sm:text-3xl text-4xl pb-7">
           Desenvolvedor Front-End &{" "}
           <span className="text-[#990000] font-[Georgia]">Designer UI/UX</span>
         </h1>
-        <p className="text-[#2D2D2D] opacity-80 text-xl font-[Arial] pb-6">
+        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Arial] pb-6">
           Sou um desenvolvedor Front-End e Designer UI/UX, estou quase 2 anos
           programando, criando projetos pessoais para aprimorar minhas
           habilidades como programador. Estou em busca de oportunidades para

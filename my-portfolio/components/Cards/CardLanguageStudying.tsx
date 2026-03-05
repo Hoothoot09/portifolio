@@ -14,7 +14,7 @@ export function CardLanguageStudying() {
         <CardTitle className="max-md:text-xl text-2xl text-[#2D2D2D] font-[Georgia] font-bold">
           Desenvolvimento Front-End
         </CardTitle>
-        <CardDescription className="max-md:text-sm text-md text-[#2D2D2D] font-[Arial] opacity-80 mb-4">
+        <CardDescription className="max-md:text-sm text-md text-[#2D2D2D]  font-[Arial] opacity-80 mb-4 ">
           Estou me especializando em linguagens frontend como React, Next.js,
           TypeScript
         </CardDescription>

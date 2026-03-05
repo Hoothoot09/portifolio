@@ -21,7 +21,7 @@ export function CardAzevedoStore() {
             height={200}
             className="w-full h-48 object-cover rounded-t-md"
           />
-          <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 gap-4">
+          <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 max-sm:gap-2 gap-4">
             <Link href={"https://azevedo-store-sigma.vercel.app/"}>
               <button className=" bg-[#CC0000] hover:bg-[#990000] rounded-md p-2 cursor-pointer">
                 <Image

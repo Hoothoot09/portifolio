@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="w-full">
       <Header />
-      <section className="pt-26 px-4 bg-gradient-to-b from-white to-[#e0e0e0]">
+      <section className="max-sm:pt-23 pt-26 max-sm:pb-2 px-4 bg-gradient-to-b from-white to-[#e0e0e0]">
         <SelfIntroduction />
       </section>
       <section>

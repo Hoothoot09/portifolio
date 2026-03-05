@@ -12,7 +12,7 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 min-xl:mr-10 py-10 min-xl:px-30">
+    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 min-xl:mr-10 max-sm:py-0 py-10 min-xl:px-30">
       <div className="min-lg:flex min-md:flex-wrap min-md:flex-col">
         <div className="flex gap-1 items-center">
           <Image
@@ -27,7 +27,7 @@ export default function SelfIntroduction() {
           Desenvolvedor Front-End &{" "}
           <span className="text-[#990000] font-[Georgia]">Designer UI/UX</span>
         </h1>
-        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Arial] pb-6">
+        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Arial] max-sm:pb-4 pb-6">
           Sou um desenvolvedor Front-End e Designer UI/UX, estou quase 2 anos
           programando, criando projetos pessoais para aprimorar minhas
           habilidades como programador. Estou em busca de oportunidades para
@@ -98,7 +98,7 @@ export default function SelfIntroduction() {
           </Link>
         </div>
       </div>
-      <div className="relative mb-8">
+      <div className="relative max-sm:mb-0 mb-8">
         <div className="flex justify-center relative w-full max-w-3xl mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
           <Image

@@ -45,8 +45,8 @@ export function CardTodoList() {
           </div>
         </div>
         <div className="bg-white">
-          <CardHeader className="mb-4">
-            <CardTitle className="text-5xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
+          <CardHeader className="mb-6">
+            <CardTitle className="mb-3 text-5xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               TodoList
             </CardTitle>
             <CardDescription className="text-center text-[#2D2D2D] text-lg font-[Arial] opacity-70">
@@ -54,7 +54,7 @@ export function CardTodoList() {
               que precisam ser realizadas diáriamente.
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex flex-wrap w-full justify-center gap-3">
+          <CardContent className="flex flex-wrap w-full justify-center gap-4">
             <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
               React
             </Badge>

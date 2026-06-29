@@ -98,7 +98,7 @@ export default function SelfIntroduction() {
           </Link>
         </div>
       </div>
-      <div className="relative max-lg:w-[400px] w-[1000px] max-sm:mb-0 mb-8">
+      <div className="relative max-sm:w-auto max-sm:mb-0 mb-8">
         <div className="flex justify-center relative w-full mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
           <Image

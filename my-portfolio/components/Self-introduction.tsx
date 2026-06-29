@@ -12,8 +12,8 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 min-xl:mr-10 max-sm:py-0 py-10 min-xl:px-30">
-      <div className="min-lg:flex min-md:flex-wrap min-md:flex-col">
+    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-10 min-xl:px-30">
+      <div className="min-md:flex min-sm:flex-wrap min-md:flex-col">
         <div className="flex gap-1 items-center">
           <Image
             src="/localization.svg"
@@ -98,8 +98,8 @@ export default function SelfIntroduction() {
           </Link>
         </div>
       </div>
-      <div className="relative max-sm:mb-0 mb-8">
-        <div className="flex justify-center relative w-full max-w-3xl mx-auto">
+      <div className="relative max-sm:w-auto max-sm:mb-0 mb-8">
+        <div className="flex justify-center relative w-full mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
           <Image
             src="/me.png"

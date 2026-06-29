@@ -21,7 +21,7 @@ export function CardTodoList() {
             height={200}
             className="w-full max-sm:h-52 max-md:h-62 max-lg:h-84 h-48 object-cover rounded-t-md"
           />
-          <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 max-sm:gap-2 gap-4">
+          <div className="min-lg:absolute inset-0 bg-corporate-gray-dark/80 min-lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-lg:justify-end justify-center max-lg:mr-2 max-lg:mt-2 max-sm:gap-2 gap-4">
             <Link href={"https://todo-list-sigma-vert.vercel.app/"}>
               <button className="bg-[#CC0000] hover:bg-[#990000] rounded-md p-2 cursor-pointer">
                 <Image
@@ -49,7 +49,7 @@ export function CardTodoList() {
             <CardTitle className="text-2xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               TodoList
             </CardTitle>
-            <CardDescription className="max-sm:text-center text-[#2D2D2D] font-[Arial] opacity-70">
+            <CardDescription className="text-center text-[#2D2D2D] font-[Arial] opacity-70">
               Site desenvolvido para que usuários possam listar suas tarefas,
               que precisam ser realizadas diáriamente.
             </CardDescription>

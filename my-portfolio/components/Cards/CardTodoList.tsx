@@ -46,7 +46,7 @@ export function CardTodoList() {
         </div>
         <div className="bg-white">
           <CardHeader className="mb-6">
-            <CardTitle className="mb-3 text-5xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
+            <CardTitle className="mb-3 max-sm:text-4xl text-5xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
               TodoList
             </CardTitle>
             <CardDescription className="text-center text-[#2D2D2D] text-lg font-[Arial] opacity-70">

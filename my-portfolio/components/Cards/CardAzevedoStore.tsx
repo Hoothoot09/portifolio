@@ -19,7 +19,7 @@ export function CardAzevedoStore() {
             alt="Imagem do projeto"
             width={400}
             height={200}
-            className="w-full h-48 object-cover rounded-t-md"
+            className="w-full max-sm:h-42 max-md:h-62 max-lg:h-84 h-48 object-cover rounded-t-md"
           />
           <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 max-sm:gap-2 gap-4">
             <Link href={"https://azevedo-store-sigma.vercel.app/"}>

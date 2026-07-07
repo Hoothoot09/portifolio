@@ -98,15 +98,15 @@ export default function SelfIntroduction() {
           </Link>
         </div>
       </div>
-      <div className="relative max-sm:w-auto max-sm:mb-0 mb-8">
-        <div className="flex justify-center relative w-full mx-auto">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
+      <div className="relative flex justify-center">
+        <div className="absolute w-70 h-70 bg-gradient-to-r from-[#CC0000] to-[#990000] rounded-full blur-3xl opacity-20"></div>
+        <div className="relative w-70 h-70 rounded-full overflow-hidden border-4 border-white shadow-2xl">
           <Image
-            src="/me.png"
+            src="/me.jpg"
+            width={300}
+            height={300}
             alt="Andrei Soares"
-            width={800}
-            height={800}
-            className="relative rounded-full border-4 border-white shadow-2xl"
+            className="object-cover"
           />
         </div>
       </div>

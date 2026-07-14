@@ -15,8 +15,11 @@ export function CardLanguageStudying() {
           Desenvolvimento Front-End
         </CardTitle>
         <CardDescription className="max-md:text-sm text-md text-[#2D2D2D]  font-[Arial] opacity-80 mb-4 ">
-          Estou me especializando em linguagens frontend como React, Next.js,
-          TypeScript
+          Estudo linguagens Front-end, para criar interfaces intuitivas e
+          funcionais, sempre buscando criar novas experiências para os usuários,
+          sendo um ponto muito importante para o desenvolvimento de aplicaçõe
+          para qualquer tipo de negócio, seja ele um e-commerce, uma plataforma
+          de serviços ou qualquer outro tipo de aplicação web.
         </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-wrap justify-center gap-2 mt-2">

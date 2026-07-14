@@ -13,7 +13,12 @@ export default function MyProjects() {
         </h1>
       </div>
       <p className="max-sm:text-sm text-xl text-center text-[2D2D2D] font-[Arial] opacity-80 max-w-xl mb-8">
-        Meus trabalhos e projetos pessoais mais recentes.
+        Meus projetos são desenvolvidos com foco em qualidade, desempenho e
+        experiência do usuário. Cada projeto é uma oportunidade de aplicar meus
+        conhecimentos e habilidades, buscando sempre entregar soluções
+        inovadoras e eficientes. Abaixo estão alguns dos meus projetos em
+        destaque, que demonstram minha capacidade de criar aplicações web
+        funcionais e visualmente atraentes.
       </p>
       <div className="flex max-lg:flex-col w-full justify-center gap-10 max-sm:mb-3 mb-6">
         <div>

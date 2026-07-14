@@ -50,9 +50,13 @@ export function CardAzevedoStore() {
               Azevedo Store
             </CardTitle>
             <CardDescription className="max-sm:text-center text-[#2D2D2D] font-[Arial] opacity-70">
-              Loja virtual desenvolvida para a venda de produtos voltado para o
-              jogo CS:GO 2, nesse site os usuários poderiam comprar skins para
-              modificar as suas armas.
+              Azevedo Store é um projeto de e-commerce de skins do jogo CS:GO
+              desenvolvido com Next.js, TypeScript e Tailwind CSS. O objetivo do
+              projeto é fornecer uma plataforma de compras online eficiente,
+              permitindo que os usuários naveguem por produtos, adicionem itens
+              ao carrinho e finalizem suas compras de forma segura. O projeto
+              também inclui funcionalidades como autenticação de usuários,
+              gerenciamento de estoque e integração com gateways de pagamento.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-3">

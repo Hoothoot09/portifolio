@@ -15,9 +15,12 @@ export function CardFrameworkStudying() {
           Design UI/UX
         </CardTitle>
         <CardDescription className="max-md:text-sm text-md text-[#2D2D2D] font-[Arial] opacity-80">
-          Estou aprimorando minhas habilidades com reponsividade, design e
-          usabilidade, focando em criar interfaces intuitivas e atraentes. Para
-          qualquer tipo de usuários.
+          Meu principal objetivo é conseguir criar interface para todo tipo de
+          usuários, com foco em acessibilidade e usabilidade, para que todos
+          possam ter uma experiência agradável ao utilizar o sistema,
+          independente de suas habilidades ou limitações, garantindo que todos
+          tenham a mesma oportunidade de utilizar o sistema de forma eficiente e
+          satisfatória, sem qualquer tipo de barreira ou dificuldade.
         </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-wrap justify-center gap-2 mt-2">

@@ -8,8 +8,11 @@ export default function Contact() {
         Vamos Trabalhar Juntos!
       </h1>
       <p className="max-sm:text-sm text-xl max-sm:text-justify text-center text-[#2D2D2D] font-[Arial] opacity-80 mb-8">
-        Estou sempre interessados em novas oportunidades para me desafiar e me
-        desenvolver minhas habilidades.
+        Estou sempre aberto a novas oportunidades e desafios. Se você está
+        procurando um desenvolvedor dedicado e apaixonado por criar soluções
+        inovadoras, não hesite em entrar em contato comigo. Estou ansioso para
+        ouvir sobre seu projeto e discutir como posso contribuir para o seu
+        sucesso.
       </p>
       <div className="flex max-md:flex-col w-full min-lg:px-96 items-center gap-3 mb-5">
         <Link

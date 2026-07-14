@@ -28,10 +28,12 @@ export default function SelfIntroduction() {
           <span className="text-[#990000] font-[Georgia]">Designer UI/UX</span>
         </h1>
         <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Arial] max-sm:pb-4 pb-6">
-          Sou um desenvolvedor Front-End e Designer UI/UX, estou quase 2 anos
-          programando, criando projetos pessoais para aprimorar minhas
-          habilidades como programador. Estou em busca de oportunidades para
-          entrar no mercado de trabalho e me desenvolver profissionalmente.
+          Sou um desenvolvedor Front-End e Designer UI/UX, estou à procura de
+          uma oportunidade no mercado de trabalho, estou 2 anos programando e
+          desenvolvendo projetos pessoais, visando sempre a melhoria contínua
+          das minhass habilidades. Meu objetivo é aplicar meus conhecimentos em
+          novos projetos, contribuindo para novas ideias e soluções inovadoras,
+          em busca de acrescentar valor à empresa e para equipe.
         </p>
         <div className="min-lg:flex gap-3 max-lg:items-center">
           <button

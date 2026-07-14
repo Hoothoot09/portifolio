@@ -50,8 +50,11 @@ export function CardTodoList() {
               TodoList
             </CardTitle>
             <CardDescription className="text-center text-[#2D2D2D] text-lg font-[Arial] opacity-70">
-              Site desenvolvido para que usuários possam listar suas tarefas,
-              que precisam ser realizadas diáriamente.
+              O site TodoList é uma aplicação web desenvolvida com React,
+              JavaScript, HTML e CSS. Ele permite que os usuários criem, editem
+              e excluam tarefas, além de marcar tarefas como concluídas. A
+              interface é simples e intuitiva, proporcionando uma experiência
+              agradável para o usuário.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-4">

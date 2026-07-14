@@ -8,10 +8,14 @@ export default function Experience() {
         Experiência
       </h2>
       <p className="max-sm:text-sm text-xl max-sm:text-justify text-center text-[#2D2D2D] font-[Arial] opacity-80 mt-4 p-1">
-        Não tenho muita experiência profissional, mas já trabalhei em alguns
-        projetos pessoais e acadêmicos que me ajudaram a desenvolver minhas
-        habilidades. Estou sempre buscando aprender mais e me aprimorar na área
-        de desenvolvimento web.
+        Não tenho experiência profissional, mas venho estudando e aprimorando
+        todos o meus conhecimentos, desenvolvendo projeto pessoais com
+        diferentes tecnologias e funcionalidades, estando cada vez mais
+        preparado para atuar no mercado de trabalho com projetos reais e com
+        desafios novos e diferentes. Está preparado para qualquer desafio que
+        venha a surgir, é um ponto importante para qualquer profissional e é com
+        esse pensamento que venho construindo para iniciar à minha carreira
+        profissional.
       </p>
     </div>
   );

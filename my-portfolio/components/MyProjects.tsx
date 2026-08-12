@@ -9,7 +9,7 @@ export default function MyProjects() {
     >
       <div className="mb-5">
         <h1 className="max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
-          Projetos em Destaques
+          Projetos em Destaque
         </h1>
       </div>
       <p className="max-sm:text-sm text-xl text-center text-[2D2D2D] font-[Arial] opacity-80 max-w-xl mb-8">

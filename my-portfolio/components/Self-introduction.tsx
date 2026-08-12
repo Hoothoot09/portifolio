@@ -31,7 +31,7 @@ export default function SelfIntroduction() {
           Sou um desenvolvedor Front-End e Designer UI/UX, estou à procura de
           uma oportunidade no mercado de trabalho, estou 2 anos programando e
           desenvolvendo projetos pessoais, visando sempre a melhoria contínua
-          das minhass habilidades. Meu objetivo é aplicar meus conhecimentos em
+          das minhas habilidades. Meu objetivo é aplicar meus conhecimentos em
           novos projetos, contribuindo para novas ideias e soluções inovadoras,
           em busca de acrescentar valor à empresa e para equipe.
         </p>

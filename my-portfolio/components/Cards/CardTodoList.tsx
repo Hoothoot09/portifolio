@@ -11,15 +11,15 @@ import Link from "next/link";
 
 export function CardTodoList() {
   return (
-    <div className="flex min-lg:w-[375px] h-full">
+    <div className="flex min-lg:w-[515px] h-full">
       <Card className="w-full group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
-        <div className="min-md:relative min-md:overflow-hidden ">
+        <div className="min-md:relative min-md:overflow-hidden p-1 border-b-1 border-[#D2D2D2]">
           <Image
-            src="/imagem-todolist.svg"
+            src="/todolist.png"
             alt="Imagem do projeto"
             width={400}
             height={200}
-            className="w-full max-sm:h-52 max-md:h-62 max-lg:h-84 h-48 object-cover rounded-t-md"
+            className="w-full max-sm:h-52 max-md:h-62 max-lg:h-84 h-58 object-cover rounded-t-md"
           />
           <div className="min-lg:absolute inset-0 bg-corporate-gray-dark/80 min-lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-lg:justify-end justify-center max-lg:mr-2 max-lg:mt-2 max-sm:gap-2 gap-4">
             <Link href={"https://todo-list-sigma-vert.vercel.app/"}>

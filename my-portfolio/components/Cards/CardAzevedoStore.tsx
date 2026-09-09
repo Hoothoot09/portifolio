@@ -11,15 +11,15 @@ import Link from "next/link";
 
 export function CardAzevedoStore() {
   return (
-    <div className="flex min-lg:w-[375px] h-full">
+    <div className="flex min-lg:w-[515px] h-full">
       <Card className="w-full group hover:shadow-xl transition-all duration-300 bg-white border-[#D2D2D2] pt-0">
-        <div className="min-md:relative min-md:overflow-hidden">
+        <div className="min-md:relative min-md:overflow-hidden border-b-1 border-[#D2D2D2]">
           <Image
-            src="azevedo-store.svg"
+            src="/azevedostore.png"
             alt="Imagem do projeto"
             width={400}
             height={200}
-            className="w-full max-sm:h-42 max-md:h-62 max-lg:h-84 h-48 object-cover rounded-t-md"
+            className="w-full max-sm:h-42 max-md:h-62 max-lg:h-84 h-60 object-cover rounded-t-md"
           />
           <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 max-sm:gap-2 gap-4">
             <Link href={"https://azevedo-store-sigma.vercel.app/"}>

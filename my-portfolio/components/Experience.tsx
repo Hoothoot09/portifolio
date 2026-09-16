@@ -8,19 +8,22 @@ export default function Experience() {
         Experiência
       </h2>
       <p className="max-sm:text-sm text-xl max-sm:text-justify text-justify text-[#2D2D2D] font-[Arial] opacity-80 mt-4 p-1">
-        Não tenho experiência profissional, mas ao longo de todas as
-        experiências que obtive nos projetos pessoais que eu mesmo criei, eu
-        aprendi que é necessário ter disciplina e organização. Criar interfaces
-        e funcionalidades que sejam intuitivas e fáceis de usar, é outro ponto
-        importante e esse foi o meu principal objetivo durante o desenvolvimento
-        dos meus projetos, para garantir uma experiência diferente para os
+        Não tenho experiência profissional, mas ao longo dos projetos pessoais
+        que desenvolvi, adquiri aprendizados importantes, principalmente sobre a
+        necessidade de ter disciplina e organização durante o processo de
+        desenvolvimento. Também aprendi que criar interfaces e funcionalidades
+        intuitivas e fáceis de utilizar é fundamental para proporcionar uma boa
+        experiência aos usuários. Esse foi um dos meus principais objetivos
+        durante o desenvolvimento dos meus projetos: criar soluções funcionais,
+        intuitivas e capazes de proporcionar uma experiência positiva aos
         usuários.
       </p>
       <p className="max-sm:text-sm text-xl max-sm:text-justify text-justify text-[#2D2D2D] font-[Arial] opacity-80 mt-4 p-1">
-        Para mim o que é mais importante para o ambiente de trabalho, é a
-        produtividade e a qualidade. Agora do ponto de vista dos usuários que
-        vão utilizar o projeto, é ter uma experiência agradável e como o
-        resultado final vai ficar.
+        Para mim, os aspectos mais importantes no ambiente de trabalho são a
+        produtividade e a qualidade. Já do ponto de vista dos usuários que
+        utilizarão o projeto, considero fundamental proporcionar uma experiência
+        agradável, além de garantir que o resultado final seja funcional,
+        intuitivo e atenda às suas necessidades.
       </p>
     </div>
   );

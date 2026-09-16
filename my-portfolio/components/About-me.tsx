@@ -13,18 +13,23 @@ export default function AboutMe() {
           Sobre Mim
         </h1>
       </div>
-      <div>
-        <p className="max-sm:text-sm text-xl max-sm:text-justify text-center  text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
-          Atualmente venho estudando linguagens Front-end e Designer de UI/UX,
-          com foco em desenvolvimento web. Busco sempre aprender novas
-          tecnologias e aprimorar minhas habilidades como programador. Sou
-          apaixonado por criar interfaces intuitivas e funcionais, e estou
-          sempre em busca de desafios que me permitam crescer profissionalmente.
-          Hoje em dia venho estudando e criando projetos com o Next.js e
-          utilizando junto a ele o framework TailwindCSS. Tenho interesse em me
-          tornar um desenvolvedor Full Stack me tornando um profissional
-          completo e capaz de atuar em todas as etapas do desenvolvimento de
-          software.
+      <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:px-2 px-35">
+        <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
+          Atualmente, venho aprimorando meus conhecimentos em desenvolvimento
+          Front-End e Design de UI/UX, buscando constantemente aprender novas
+          tecnologias e aperfeiçoar minhas habilidades como programador. Tenho
+          como objetivo evoluir continuamente, colocando em prática os
+          conhecimentos adquiridos por meio do desenvolvimento de projetos
+          pessoais.
+        </p>
+        <p className="max-sm:text-sm text-xl text-justify  text-[#2D2D2D] font-[Arial] opacity-80 mx-auto mt-4">
+          Sou apaixonado por criar interfaces intuitivas e funcionais utilizando
+          o Tailwind CSS, com foco em proporcionar uma experiência positiva aos
+          usuários. No momento, concentro meus estudos e projetos principalmente
+          em React, Next.js e TypeScript, utilizando essas tecnologias para
+          desenvolver soluções que me permitam aplicar meus conhecimentos,
+          explorar novos conceitos e enfrentar desafios que contribuam para o
+          meu crescimento profissional.
         </p>
       </div>
       <div className=" flex justify-center max-sm:flex-col gap-4">

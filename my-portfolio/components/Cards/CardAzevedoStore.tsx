@@ -22,7 +22,10 @@ export function CardAzevedoStore() {
             className="w-full max-sm:h-42 max-md:h-62 max-lg:h-84 h-60 object-cover rounded-t-md"
           />
           <div className="min-md:absolute inset-0 bg-corporate-gray-dark/80 min-md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center max-sm:justify-end justify-center max-sm:mr-2 max-sm:mt-2 max-sm:gap-2 gap-4">
-            <Link href={"https://azevedo-store-sigma.vercel.app/"}>
+            <Link
+              target="_blank"
+              href={"https://azevedo-store-sigma.vercel.app/"}
+            >
               <button className=" bg-[#CC0000] hover:bg-[#990000] rounded-md p-2 cursor-pointer">
                 <Image
                   src={"/arrow-up-right-from-square.svg"}
@@ -32,7 +35,10 @@ export function CardAzevedoStore() {
                 />
               </button>
             </Link>
-            <Link href={"https://github.com/Hoothoot09/azevedo-store"}>
+            <Link
+              target="_blank"
+              href={"https://github.com/Hoothoot09/azevedo-store"}
+            >
               <button className="flex justify-center items-center bg-[#B4A76C] hover:bg-[#B4A76C]/80 rounded-md p-2 cursor-pointer">
                 <Image
                   src={"/github.svg"}

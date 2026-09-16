@@ -52,6 +52,7 @@ export default function SelfIntroduction() {
             />
           </button>
           <Link
+            target="_blank"
             href="mailto:andreicarvalho1370@gmail.com"
             className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Arial]"
           >
@@ -66,6 +67,7 @@ export default function SelfIntroduction() {
         </div>
         <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7 max-lg:justify-center">
           <Link
+            target="_blank"
             href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
             className="p-1.5 rounded-md hover:bg-gray-50"
           >
@@ -77,6 +79,7 @@ export default function SelfIntroduction() {
             />
           </Link>
           <Link
+            target="_blank"
             href="https://www.linkedin.com/in/andrei-soares/"
             className="p-1.5 rounded-md hover:bg-gray-50"
           >
@@ -88,6 +91,7 @@ export default function SelfIntroduction() {
             />
           </Link>
           <Link
+            target="_blank"
             href="mailto:andreicarvalho1370@gmail.com"
             className="p-1.5 rounded-md hover:bg-gray-50"
           >

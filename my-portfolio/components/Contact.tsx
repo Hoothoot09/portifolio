@@ -16,6 +16,7 @@ export default function Contact() {
       </p>
       <div className="flex max-md:flex-col w-full min-lg:px-96 items-center gap-3 mb-5">
         <Link
+          target="_blank"
           href={"mailto:andreicarvalho1370@gmail.com"}
           className="flex w-full items-center justify-center bg-[#CC0000] hover:bg-[#990000] border border-[#CC0000] text-white font-[Arial] p-2 rounded-md gap-2"
         >

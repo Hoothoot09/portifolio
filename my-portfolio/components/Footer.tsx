@@ -10,6 +10,7 @@ export default function Footer() {
         </h2>
         <div className="flex justify-center items-center min-lg:gap-3 gap-6">
           <Link
+            target="_blank"
             href={
               "https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
             }
@@ -23,6 +24,7 @@ export default function Footer() {
             />
           </Link>
           <Link
+            target="_blank"
             href={"https://www.linkedin.com/in/andrei-soares/"}
             className="p-3 hover:bg-[#E0E0E0]/20 rounded-md"
           >
@@ -34,6 +36,7 @@ export default function Footer() {
             />
           </Link>
           <Link
+            target="_blank"
             href={"mailto:andreicarvalho1370@gmail.com"}
             className="p-3 hover:bg-[#E0E0E0]/20 rounded-md"
           >

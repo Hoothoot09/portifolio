@@ -64,16 +64,16 @@ export function CardTodoList() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-4">
-            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
+            <Badge className="bg-[#CC0000] text-white font-[Arial] rounded-xl">
               React
             </Badge>
-            <Badge className="bg-white text-[#B4A76C] font-[Arial] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Arial] border border-[#B4A76C] rounded-xl">
               JavaScript
             </Badge>
-            <Badge className="bg-white border border-[#CC0000] text-[#CC0000] font-[Arial] rounded-xl">
+            <Badge className="bg-[#CC0000] text-white font-[Arial] rounded-xl">
               CSS
             </Badge>
-            <Badge className="bg-white text-[#B4A76C] font-[Arial] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Arial] border border-[#B4A76C] rounded-xl">
               HTML
             </Badge>
           </CardContent>

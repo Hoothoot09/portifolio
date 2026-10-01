@@ -52,10 +52,10 @@ export function CardTodoList() {
         </div>
         <div className="bg-white">
           <CardHeader className="mb-6">
-            <CardTitle className="mb-3 max-sm:text-4xl text-5xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
+            <CardTitle className="mb-3 max-sm:text-4xl text-5xl text-center text-[#2D2D2D] font-[Space_Grotesk] font-bold">
               TodoList
             </CardTitle>
-            <CardDescription className="text-center text-[#2D2D2D] text-lg font-[Arial] opacity-70">
+            <CardDescription className="text-center text-[#2D2D2D] text-lg font-[Inter] opacity-70">
               O site TodoList é uma aplicação web desenvolvida com React,
               JavaScript, HTML e CSS. Ele permite que os usuários criem, editem
               e excluam tarefas, além de marcar tarefas como concluídas. A
@@ -64,16 +64,16 @@ export function CardTodoList() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-4">
-            <Badge className="bg-[#CC0000] text-white font-[Arial] rounded-xl">
+            <Badge className="bg-[#CC0000] text-white font-[Inter] rounded-xl">
               React
             </Badge>
-            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Arial] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Inter] border border-[#B4A76C] rounded-xl">
               JavaScript
             </Badge>
-            <Badge className="bg-[#CC0000] text-white font-[Arial] rounded-xl">
+            <Badge className="bg-[#CC0000] text-white font-[Inter] rounded-xl">
               CSS
             </Badge>
-            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Arial] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Inter] border border-[#B4A76C] rounded-xl">
               HTML
             </Badge>
           </CardContent>

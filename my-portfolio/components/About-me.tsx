@@ -9,12 +9,12 @@ export default function AboutMe() {
       justify-center items-center"
     >
       <div className="mb-5">
-        <h1 className="max-sm:text-2xl text-3xl text-[#2D2D2D] font-[Georgia] font-bold">
+        <h1 className="max-sm:text-2xl text-3xl text-[#2D2D2D] font-[Space_Grotesk] font-bold">
           Sobre Mim
         </h1>
       </div>
       <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:px-2 px-30">
-        <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
+        <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Inter] opacity-80 mx-auto">
           Atualmente, venho aprimorando meus conhecimentos em desenvolvimento
           Front-End e Design de UI/UX, buscando constantemente aprender novas
           tecnologias e aperfeiçoar minhas habilidades como programador. Tenho
@@ -22,7 +22,7 @@ export default function AboutMe() {
           conhecimentos adquiridos por meio do desenvolvimento de projetos
           pessoais.
         </p>
-        <p className="max-sm:text-sm text-xl text-justify  text-[#2D2D2D] font-[Arial] opacity-80 mx-auto mt-4">
+        <p className="max-sm:text-sm text-xl text-justify  text-[#2D2D2D] font-[Inter] opacity-80 mx-auto mt-4">
           Sou apaixonado por criar interfaces intuitivas e funcionais utilizando
           o Tailwind CSS, com foco em proporcionar uma experiência positiva aos
           usuários. No momento, concentro meus estudos e projetos principalmente

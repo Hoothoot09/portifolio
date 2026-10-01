@@ -52,10 +52,10 @@ export function CardAzevedoStore() {
         </div>
         <div className="bg-white">
           <CardHeader className="mb-18">
-            <CardTitle className=" mb-3 text-2xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
+            <CardTitle className=" mb-3 text-2xl text-center text-[#2D2D2D] font-[Space_Grotesk] font-bold">
               Azevedo Store
             </CardTitle>
-            <CardDescription className="max-sm:text-center text-[#2D2D2D] font-[Arial] opacity-70">
+            <CardDescription className="max-sm:text-center text-[#2D2D2D] font-[Inter] opacity-70">
               Azevedo Store é um projeto de e-commerce de skins do jogo CS:GO
               desenvolvido com Next.js, TypeScript e Tailwind CSS. O objetivo do
               projeto é fornecer uma plataforma de compras online eficiente,
@@ -66,16 +66,16 @@ export function CardAzevedoStore() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap w-full justify-center gap-4">
-            <Badge className="bg-[#CC0000] text-white font-[Arial] rounded-xl">
+            <Badge className="bg-[#CC0000] text-white font-[Inter] rounded-xl">
               Next.js
             </Badge>
-            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Arial] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Inter] border border-[#B4A76C] rounded-xl">
               TypeScript
             </Badge>
-            <Badge className="bg-[#CC0000] text-white font-[Arial] rounded-xl">
+            <Badge className="bg-[#CC0000] text-white font-[Inter] rounded-xl">
               JavaScript
             </Badge>
-            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Arial] border border-[#B4A76C] rounded-xl">
+            <Badge className="bg-[#B4A76C] text-[#2D2D2D] font-[Inter] border border-[#B4A76C] rounded-xl">
               TailWind CSS
             </Badge>
           </CardContent>

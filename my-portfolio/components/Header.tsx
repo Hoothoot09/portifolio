@@ -19,7 +19,7 @@ export default function Header() {
       <div className="flex justify-between">
         <Link
           href={"/"}
-          className="max-md:text-lg text-2xl text-[#2D2D2D] font-[Georgia] font-bold"
+          className="max-md:text-lg text-2xl text-[#2D2D2D] font-[Space_Grotesk] font-bold"
         >
           Andrei Soares
         </Link>
@@ -28,7 +28,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "about");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Inter] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Sobre
           </button>
@@ -36,7 +36,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Inter] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Projetos
           </button>
@@ -44,7 +44,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "experience");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Inter] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Experiência
           </button>
@@ -52,7 +52,7 @@ export default function Header() {
             onClick={(e) => {
               handleClick(e, "contacts");
             }}
-            className="p-1 text-xl text-[#2D2D2D]/70 font-[Arial] font-bold hover:text-[#CC0000] cursor-pointer"
+            className="p-1 text-xl text-[#2D2D2D]/70 font-[Inter] font-bold hover:text-[#CC0000] cursor-pointer"
           >
             Contato
           </button>

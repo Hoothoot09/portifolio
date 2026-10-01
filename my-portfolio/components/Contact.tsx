@@ -3,11 +3,14 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div id="contacts" className="flex flex-col w-full p-2 bg-[#E0E0E0]">
+    <div
+      id="contacts"
+      className="flex flex-col max-w-[1400px] px-30 bg-[#E0E0E0]"
+    >
       <h1 className=" max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Georgia] font-bold mt-4 mb-4">
         Vamos Trabalhar Juntos!
       </h1>
-      <p className="max-sm:text-sm text-xl max-sm:text-justify text-center text-[#2D2D2D] font-[Arial] opacity-80 mb-8">
+      <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Arial] opacity-80 mb-8">
         Estou sempre aberto a novas oportunidades e desafios. Se você está
         procurando um desenvolvedor dedicado e apaixonado por criar soluções
         inovadoras, não hesite em entrar em contato comigo. Estou ansioso para

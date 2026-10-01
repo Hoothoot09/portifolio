@@ -12,7 +12,7 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="min-lg:flex items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-10 min-xl:px-30">
+    <div className="flex max-w-[1400px] items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-6 min-xl:px-30">
       <div className="min-md:flex min-sm:flex-wrap min-md:flex-col">
         <div className="flex gap-1 items-center">
           <Image

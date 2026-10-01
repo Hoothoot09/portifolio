@@ -10,22 +10,22 @@ export default function Home() {
   return (
     <div className="w-full">
       <Header />
-      <section className="max-sm:pt-23 pt-26 max-sm:pb-2 px-4 bg-gradient-to-b from-white to-[#e0e0e0]">
+      <section className="flex justify-center max-sm:pt-23 pt-26 max-sm:pb-2 bg-gradient-to-b from-white to-[#E0E0E0]">
         <SelfIntroduction />
       </section>
-      <section>
+      <section className="flex justify-center">
         <AboutMe />
       </section>
-      <section>
+      <section className="flex justify-center bg-[#E0E0E0]">
         <MyProjects />
       </section>
-      <section>
+      <section className="flex justify-center">
         <Experience />
       </section>
-      <section>
+      <section className="flex justify-center bg-[#E0E0E0]">
         <Contact />
       </section>
-      <footer>
+      <footer className="flex justify-center bg-[#2D2D2D]">
         <Footer />
       </footer>
     </div>

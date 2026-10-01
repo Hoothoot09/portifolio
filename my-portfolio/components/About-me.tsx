@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div
       id="about"
-      className="flex flex-col w-full p-3 pt-[70px] max-sm:mt-0 mt-6 mb-6
+      className="flex flex-col max-w-[1400px] pt-[70px] max-sm:mt-0 mt-6 mb-6
       justify-center items-center"
     >
       <div className="mb-5">
@@ -13,7 +13,7 @@ export default function AboutMe() {
           Sobre Mim
         </h1>
       </div>
-      <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:px-2 px-35">
+      <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:px-2 px-30">
         <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Arial] opacity-80 mx-auto">
           Atualmente, venho aprimorando meus conhecimentos em desenvolvimento
           Front-End e Design de UI/UX, buscando constantemente aprender novas

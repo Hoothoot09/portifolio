@@ -8,11 +8,11 @@ export default function MyProjects() {
       className="flex flex-col max-w-[1400px] pt-[70px] max-sm:mt-0 mt-6 mb-6 justify-center items-center bg-[#E0E0E0]"
     >
       <div className="mb-5">
-        <h1 className="max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Georgia] font-bold">
+        <h1 className="max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Space_Grotesk] font-bold">
           Projetos em Destaque
         </h1>
       </div>
-      <p className="max-sm:text-sm text-xl text-justify text-[2D2D2D] font-[Arial] opacity-80 w-full mb-8 px-30">
+      <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Inter] opacity-80 w-full mb-8 px-30">
         Aqui estão alguns dos meus projetos mais recentes, desenvolvidos da
         ideia ao deploy. Cada projeto reflete minhas habilidades em
         desenvolvimento web, design de interfaces e resolução de problemas, com

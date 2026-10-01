@@ -21,13 +21,15 @@ export default function SelfIntroduction() {
             width={12}
             height={12}
           />
-          <span className="text-[#2D2D2D] font-[Roboto]">Salvador, BA</span>
+          <span className="text-[#2D2D2D] font-[Inter]">Salvador, BA</span>
         </div>
-        <h1 className="text-[#2D2D2D] font-[Georgia] font-bold max-sm:text-3xl text-4xl pb-7">
+        <h1 className="text-[#2D2D2D] font-[Space_Grotesk] font-bold max-sm:text-3xl text-4xl pb-7">
           Desenvolvedor Front-End &{" "}
-          <span className="text-[#990000] font-[Georgia]">Designer UI/UX</span>
+          <span className="text-[#990000] font-[Space_Grotesk]">
+            Designer UI/UX
+          </span>
         </h1>
-        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Arial] max-sm:pb-4 pb-6">
+        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Inter] max-sm:pb-4 pb-6">
           Sou um desenvolvedor Front-End e Designer UI/UX, estou à procura de
           uma oportunidade no mercado de trabalho, estou 2 anos programando e
           desenvolvendo projetos pessoais, visando sempre a melhoria contínua
@@ -40,7 +42,7 @@ export default function SelfIntroduction() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Arial] cursor-pointer group"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Inter] cursor-pointer group"
           >
             Ver meu trabalho
             <Image
@@ -54,7 +56,7 @@ export default function SelfIntroduction() {
           <Link
             target="_blank"
             href="mailto:andreicarvalho1370@gmail.com"
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Arial]"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Inter]"
           >
             <Image
               src="/envelope-gray-dark.svg"

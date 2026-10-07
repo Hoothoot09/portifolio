@@ -2,8 +2,30 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import React, { useRef, useEffect } from "react";
 
 export default function SelfIntroduction() {
+  const [visible, setVisible] = React.useState(false);
+  const aboutref = useRef<HTMLDivElement>(null);
+
+  function handleVisibility(value: IntersectionObserverEntry) {
+    if (value.isIntersecting) {
+      setVisible(true);
+    }
+  }
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(handleVisibility);
+    });
+
+    if (aboutref.current) {
+      observer.observe(aboutref.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   const handleClick = (event: React.MouseEvent<HTMLElement>, id: string) => {
     event.preventDefault();
     document.getElementById(id)?.scrollIntoView({
@@ -12,7 +34,14 @@ export default function SelfIntroduction() {
   };
 
   return (
-    <div className="min-lg:flex max-w-[1400px] items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-6 min-xl:px-30">
+    <div
+      ref={aboutref}
+      className={
+        visible
+          ? "flex max-w-[1400px] items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-6 min-xl:px-30 opacity-100 translate-x-0 transition duration-1500"
+          : "flex max-w-[1400px] items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-6 min-xl:px-30 opacity-0 -translate-x-[50px] transition duration-1500"
+      }
+    >
       <div className="min-md:flex min-sm:flex-wrap min-md:flex-col">
         <div className="flex gap-1 items-center">
           <Image

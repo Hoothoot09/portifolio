@@ -9,9 +9,9 @@ export default function AboutMe() {
       justify-center items-center"
     >
       <div className="mb-5">
-        <h1 className="max-sm:text-2xl text-3xl text-[#2D2D2D] font-[Space_Grotesk] font-bold">
+        <h2 className="max-sm:text-2xl text-3xl text-[#2D2D2D] font-[Space_Grotesk] font-bold">
           Sobre Mim
-        </h1>
+        </h2>
       </div>
       <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:px-2 px-30">
         <p className="max-sm:text-sm text-xl text-justify text-[#2D2D2D] font-[Inter] opacity-80 mx-auto">

@@ -71,7 +71,7 @@ export default function SelfIntroduction() {
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Inter] cursor-pointer group"
+            className="flex max-lg:w-full w-60 rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Inter] cursor-pointer group transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-lg hover:shadow-[#CC0000]/50"
           >
             Ver meu trabalho
             <Image
@@ -79,13 +79,13 @@ export default function SelfIntroduction() {
               alt="arrow right icon"
               width={12}
               height={12}
-              className="transition-transform duration-300 group-hover:translate-x-3"
+              className="transition-transform duration-400 group-hover:translate-x-3"
             />
           </button>
           <Link
             target="_blank"
             href="mailto:andreicarvalho1370@gmail.com"
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Inter]"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Inter] transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-lg hover:shadow-[#2D2D2D]/50"
           >
             <Image
               src="/envelope-gray-dark.svg"
@@ -100,7 +100,7 @@ export default function SelfIntroduction() {
           <Link
             target="_blank"
             href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
-            className="p-1.5 rounded-md hover:bg-gray-50"
+            className="p-2 border-1 rounded-md hover:bg-gray-100 transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#2D2D2D]/50"
           >
             <Image
               src="/github-mark.svg"
@@ -112,7 +112,7 @@ export default function SelfIntroduction() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/andrei-soares/"
-            className="p-1.5 rounded-md hover:bg-gray-50"
+            className="p-2 border-1 rounded-md hover:bg-gray-100 transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#2D2D2D]/50"
           >
             <Image
               src="/linkedin.svg"
@@ -124,7 +124,7 @@ export default function SelfIntroduction() {
           <Link
             target="_blank"
             href="mailto:andreicarvalho1370@gmail.com"
-            className="p-1.5 rounded-md hover:bg-gray-50"
+            className="p-2 border-1 rounded-md hover:bg-gray-100 transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#2D2D2D]/50"
           >
             <Image
               src="/envelope-gray-dark.svg"

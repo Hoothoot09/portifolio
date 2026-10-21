@@ -14,7 +14,7 @@ export default function Footer() {
             href={
               "https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
             }
-            className="p-3 hover:bg-[#E0E0E0]/20 rounded-md transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#E0E0E0]/20"
+            className="p-3 hover:bg-[#E0E0E0]/20 border border-white rounded-md transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#E0E0E0]/20"
           >
             <Image
               src={"/github-white.svg"}
@@ -26,7 +26,7 @@ export default function Footer() {
           <Link
             target="_blank"
             href={"https://www.linkedin.com/in/andrei-soares/"}
-            className="p-3 hover:bg-[#E0E0E0]/20 rounded-md transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#E0E0E0]/20"
+            className="p-3 hover:bg-[#E0E0E0]/20 border border-white rounded-md transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#E0E0E0]/20"
           >
             <Image
               src={"/linkedin-white.svg"}
@@ -38,7 +38,7 @@ export default function Footer() {
           <Link
             target="_blank"
             href={"mailto:andreicarvalho1370@gmail.com"}
-            className="p-3 hover:bg-[#E0E0E0]/20 rounded-md transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#E0E0E0]/20"
+            className="p-3 hover:bg-[#E0E0E0]/20 border border-white rounded-md transition-transform duration-400 hover:translate-y-[-4px] shadow-lg hover:shadow-[#E0E0E0]/20"
           >
             <Image
               src={"/envelope-white.svg"}

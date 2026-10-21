@@ -1,12 +1,40 @@
+"use client";
+
 import { CardLanguageStudying } from "@/components/Cards/CardLanguageStudying";
 import { CardFrameworkStudying } from "@/components/Cards/CardFrameworkStudying";
+import { useRef, useState, useEffect } from "react";
 
 export default function AboutMe() {
+  const [visibleAboutMe, setVisibleAboutMe] = useState(false);
+  const aboutMeref = useRef<HTMLDivElement>(null);
+
+  function handleVisibility(value: IntersectionObserverEntry) {
+    if (value.isIntersecting) {
+      setVisibleAboutMe(true);
+    }
+  }
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(handleVisibility);
+    });
+
+    if (aboutMeref.current) {
+      observer.observe(aboutMeref.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div
+      ref={aboutMeref}
       id="about"
-      className="flex flex-col max-w-[1400px] pt-[70px] max-sm:mt-0 mt-6 mb-6
-      justify-center items-center"
+      className={
+        visibleAboutMe
+          ? "flex flex-col max-w-[1400px] pt-[70px] max-sm:mt-0 mt-6 mb-6 justify-center items-center opacity-100 transition duration-3500"
+          : "flex flex-col max-w-[1400px] pt-[70px] max-sm:mt-0 mt-6 mb-6 justify-center items-center opacity-0"
+      }
     >
       <div className="mb-5">
         <h2 className="max-sm:text-2xl text-3xl text-[#2D2D2D] font-[Space_Grotesk] font-bold">

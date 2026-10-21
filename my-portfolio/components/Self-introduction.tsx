@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 export default function SelfIntroduction() {
-  const [visible, setVisible] = React.useState(false);
+  const [visible, setVisible] = useState(false);
   const aboutref = useRef<HTMLDivElement>(null);
 
   function handleVisibility(value: IntersectionObserverEntry) {

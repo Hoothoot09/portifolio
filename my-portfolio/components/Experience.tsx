@@ -1,8 +1,38 @@
+"use client";
+
+import { useState, useRef, useEffect } from "react";
+
 export default function Experience() {
+  const [isExperienceVisible, setExperienceVisible] = useState(false);
+  const experienceref = useRef<HTMLDivElement>(null);
+
+  function handleVisibility(value: IntersectionObserverEntry) {
+    if (value.isIntersecting) {
+      setExperienceVisible(true);
+    }
+  }
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(handleVisibility);
+    });
+
+    if (experienceref.current) {
+      observer.observe(experienceref.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div
+      ref={experienceref}
       id="experience"
-      className="max-w-[1400px] px-30 min-lg:py-10 mb-5 pt-[70px]"
+      className={
+        isExperienceVisible
+          ? "max-w-[1400px] px-30 min-lg:py-10 mb-5 pt-[70px] opacity-100 transition duration-3500"
+          : "max-w-[1400px] px-30 min-lg:py-10 mb-5 pt-[70px] opacity-0"
+      }
     >
       <h2 className=" max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Space_Grotesk] font-bold">
         Experiência

@@ -1,11 +1,40 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useRef, useEffect } from "react";
 
 export default function Contact() {
+  const [isContactVisible, setContactVisible] = useState(false);
+  const contactref = useRef<HTMLDivElement>(null);
+
+  function handleVisibility(value: IntersectionObserverEntry) {
+    if (value.isIntersecting) {
+      setContactVisible(true);
+    }
+  }
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(handleVisibility);
+    });
+
+    if (contactref.current) {
+      observer.observe(contactref.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div
+      ref={contactref}
       id="contacts"
-      className="flex flex-col max-w-[1400px] bg-[#E0E0E0] px-30"
+      className={
+        isContactVisible
+          ? "flex flex-col max-w-[1400px] bg-[#E0E0E0] px-30 opacity-100 transition duration-3500"
+          : "flex flex-col max-w-[1400px] bg-[#E0E0E0] px-30 opacity-0"
+      }
     >
       <h2 className=" max-sm:text-2xl text-3xl text-center text-[#2D2D2D] font-[Space_Grotesk] font-bold mt-4 mb-4">
         Vamos Trabalhar Juntos!

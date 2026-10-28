@@ -50,7 +50,7 @@ export default function Contact() {
         <Link
           target="_blank"
           href={"mailto:andreicarvalho1370@gmail.com"}
-          className="flex w-full items-center justify-center bg-[#CC0000] hover:bg-[#990000] border border-[#CC0000] text-white font-[Inter] p-2 rounded-md gap-2"
+          className="flex w-full items-center justify-center bg-[#CC0000] hover:bg-[#990000] border border-[#CC0000] text-white font-[Inter] p-2 rounded-md gap-2 group transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-xl hover:shadow-[#CC0000]/50"
         >
           <Image
             src={"/envelope-white.svg"}
@@ -58,7 +58,7 @@ export default function Contact() {
             width={18}
             height={18}
           />
-          andreicarvalho1370@gmail.com
+          Entre em contato!
         </Link>
       </div>
     </div>

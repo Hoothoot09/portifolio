@@ -38,8 +38,8 @@ export default function SelfIntroduction() {
       ref={aboutref}
       className={
         visible
-          ? "flex max-w-[1400px] items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-6 min-xl:px-30 opacity-100 translate-x-0 transition duration-1500"
-          : "flex max-w-[1400px] items-center justify-center min-md:gap-10 min-lg:gap-20 max-sm:py-0 py-6 min-xl:px-30 opacity-0 -translate-x-[50px] transition duration-1500"
+          ? "flex max-lg:flex-col max-w-[1400px] items-center justify-center min-sm:py-10 min-sm:px-5 min-md:px-10 gap-15 opacity-100 translate-x-0 transition duration-1500"
+          : "flex max-w-[1400px] items-center justify-center opacity-0 -translate-x-[50px] transition duration-1500"
       }
     >
       <div className="min-md:flex min-sm:flex-wrap min-md:flex-col">
@@ -58,7 +58,7 @@ export default function SelfIntroduction() {
             Designer UI/UX
           </span>
         </h1>
-        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm max-sm:text-justify text-xl font-[Inter] max-sm:pb-4 pb-6">
+        <p className="text-[#2D2D2D] opacity-80 max-sm:text-sm text-justify text-xl font-[Inter] max-sm:pb-4 pb-6">
           Sou um desenvolvedor Front-End e Designer UI/UX, estou à procura de
           uma oportunidade no mercado de trabalho, estou 2 anos programando e
           desenvolvendo projetos pessoais, visando sempre a melhoria contínua

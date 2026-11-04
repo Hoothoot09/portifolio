@@ -6,11 +6,17 @@ import { useRef, useState, useEffect } from "react";
 
 export default function AboutMe() {
   const [visibleAboutMe, setVisibleAboutMe] = useState(false);
-  const aboutMeref = useRef<HTMLDivElement>(null);
+  const [visibleCardLanguage, setVisibleCardLanguage] = useState(false);
+  const [visibleCardFramework, setVisibleCardFramework] = useState(false);
+  const aboutMeRef = useRef<HTMLDivElement>(null);
+  const cardLanguageRef = useRef<HTMLDivElement>(null);
+  const cardFrameworkRef = useRef<HTMLDivElement>(null);
 
   function handleVisibility(value: IntersectionObserverEntry) {
     if (value.isIntersecting) {
       setVisibleAboutMe(true);
+      setVisibleCardLanguage(true);
+      setVisibleCardFramework(true);
     }
   }
 
@@ -19,8 +25,8 @@ export default function AboutMe() {
       entries.forEach(handleVisibility);
     });
 
-    if (aboutMeref.current) {
-      observer.observe(aboutMeref.current);
+    if (aboutMeRef.current) {
+      observer.observe(aboutMeRef.current);
     }
 
     return () => observer.disconnect();
@@ -28,7 +34,7 @@ export default function AboutMe() {
 
   return (
     <div
-      ref={aboutMeref}
+      ref={aboutMeRef}
       id="about"
       className={
         visibleAboutMe
@@ -60,9 +66,27 @@ export default function AboutMe() {
           meu crescimento profissional.
         </p>
       </div>
-      <div className=" flex justify-center max-sm:flex-col gap-4">
-        <CardLanguageStudying />
-        <CardFrameworkStudying />
+      <div className="flex h-auto justify-center max-sm:flex-col gap-4">
+        <div
+          ref={cardLanguageRef}
+          className={
+            visibleCardLanguage
+              ? "opacity-100 translate-x-0 transition duration-4000"
+              : "opacity-0 -translate-x-[100px]"
+          }
+        >
+          <CardLanguageStudying />
+        </div>
+        <div
+          ref={cardFrameworkRef}
+          className={
+            visibleCardFramework
+              ? "opacity-100 translate-x-0 transition duration-4000"
+              : "opacity-0 -translate-x-[-100px]"
+          }
+        >
+          <CardFrameworkStudying />
+        </div>
       </div>
     </div>
   );

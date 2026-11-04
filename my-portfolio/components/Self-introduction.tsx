@@ -39,7 +39,7 @@ export default function SelfIntroduction() {
       className={
         visible
           ? "flex max-lg:flex-col max-w-[1400px] items-center justify-center min-sm:py-10 min-sm:px-5 min-md:px-10 gap-15 opacity-100 translate-x-0 transition duration-1500"
-          : "flex max-w-[1400px] items-center justify-center opacity-0 -translate-x-[50px] transition duration-1500"
+          : "flex max-lg:flex-col max-w-[1400px] items-center justify-center min-sm:py-10 min-sm:px-5 min-md:px-10 gap-15 opacity-0 -translate-x-[50px] transition duration-1500"
       }
     >
       <div className="min-md:flex min-sm:flex-wrap min-md:flex-col">

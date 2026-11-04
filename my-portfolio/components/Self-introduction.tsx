@@ -66,12 +66,12 @@ export default function SelfIntroduction() {
           novos projetos, contribuindo para novas ideias e soluções inovadoras,
           em busca de acrescentar valor à empresa e para equipe.
         </p>
-        <div className="min-lg:flex gap-3 max-lg:items-center">
+        <div className="flex gap-4">
           <button
             onClick={(e) => {
               handleClick(e, "projects");
             }}
-            className="flex max-lg:w-full w-60 rounded-md justify-center items-center gap-2 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Inter] cursor-pointer group transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-lg hover:shadow-[#CC0000]/50"
+            className="flex max-lg:w-full w-60 rounded-md justify-center items-center gap-2 min-md:p-0.5 p-2 bg-[#CC0000] hover:bg-[#990000] text-white font-[Inter] cursor-pointer group transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-lg hover:shadow-[#CC0000]/50"
           >
             Ver meu trabalho
             <Image
@@ -85,7 +85,7 @@ export default function SelfIntroduction() {
           <Link
             target="_blank"
             href="mailto:andreicarvalho1370@gmail.com"
-            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center p-2 gap-2 max-lg:mt-3 text-[#2D2D2D] font-[Inter] transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-lg hover:shadow-[#2D2D2D]/50"
+            className="flex max-lg:w-full w-60 border rounded-md justify-center items-center min-md:p-0.5 p-2 gap-2 text-[#2D2D2D] font-[Inter] transition-transform duration-400 hover:translate-y-[-4px] hover:shadow-lg hover:shadow-[#2D2D2D]/50"
           >
             <Image
               src="/envelope-gray-dark.svg"
@@ -96,7 +96,7 @@ export default function SelfIntroduction() {
             Entre em Contato
           </Link>
         </div>
-        <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7 max-lg:justify-center">
+        <div className="flex max-md:gap-5 gap-7 max-md:mt-4 mt-7">
           <Link
             target="_blank"
             href="https://github.com/Hoothoot09?tab=overview&from=2025-05-01&to=2025-05-13"
